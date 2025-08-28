@@ -1,6 +1,6 @@
 // app/components/Hero.jsx
 
-import Image from 'next/image';
+import Image from "next/image";
 
 export const Hero = () => (
   // Padding diubah dari p-4 menjadi pt-4, hanya padding atas yang dipakai

@@ -1,110 +1,170 @@
 // app/components/Header.jsx
-'use client';
+"use client";
 
-import { useState } from 'react';
-import Image from 'next/image';
-import { Menu, X, ChevronRight, ChevronDown } from 'lucide-react';
+import { useState, useRef, useEffect, useMemo } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { gsap } from "gsap";
+import { Menu, X, ChevronRight, ChevronDown, ArrowLeft } from "lucide-react";
 
-// --- STRUKTUR DATA MENU BARU ---
-// Sekarang mendukung submenu
+// --- DATA MENU (tetap sama) ---
 const menuData = [
   {
-    text: 'PROMO PAKET SERVICE',
-    // Submenu diupdate sesuai referensi
+    text: "PROMO PAKET SERVICE",
     subMenu: [
-      { text: 'PAKET KAKI - KAKI' },
-      { text: 'PAKET COMBO KAKI - KAKI' },
-      { text: 'PAKET COMBO SUPER KOMPLIT' },
-      { text: 'PAKET SUPER HEMAT' },
-      { text: 'PAKET STEERING' },
-      { text: 'PAKET RACKSTEER HEMAT' },
-      { text: 'PAKET OVERHOUL ENGINE' },
-      { text: 'PAKET DIESEL' },
-      { text: 'PAKET SPECIAL' },
-      { text: 'PAKET AC MOBIL' },
-      { text: 'PAKET ANTI KARAT' },
-      { text: 'PAKET DETAILING' },
-      { text: 'PAKET NANO CERAMIC COATING' },
+      { text: "PAKET KAKI - KAKI", href: "/paket/kaki-kaki" },
+      { text: "PAKET COMBO KAKI - KAKI", href: "/paket/combo-kaki-kaki" },
+      { text: "PAKET COMBO SUPER KOMPLIT", href: "/paket/combo-super-komplit" },
+      { text: "PAKET SUPER HEMAT", href: "/paket/super-hemat" },
+      { text: "PAKET STEERING", href: "/paket/steering" },
+      { text: "PAKET RACKSTEER HEMAT", href: "/paket/racksteer-hemat" },
+      { text: "PAKET DIESEL", href: "/paket/diesel" },
+      { text: "PAKET SPECIAL", href: "/paket/special" },
+      { text: "PAKET OVERHAUL ENGINE", href: "/paket/overhaul-engine" },
     ],
   },
   {
-    text: 'PROMO BULAN INI',
-    subMenu: [{ text: '21 PROMO GRATIS SENILAI 4,1 JT' }],
+    text: "PROMO BULAN INI",
+    subMenu: [{ text: "21 PROMO GRATIS SENILAI 4,1 JT", href: "#" }],
   },
   {
-    text: 'PROMO PAKET MEMBER',
-    subMenu: [{ text: 'PAKET MEMBER TAHUNAN KOMPLIT' }],
+    text: "PROMO PAKET MEMBER",
+    subMenu: [{ text: "PAKET MEMBER TAHUNAN KOMPLIT", href: "#" }],
   },
   {
-    text: 'PROMO TEBUS MURAH',
+    text: "PROMO TEBUS MURAH",
     subMenu: [
-      { text: 'PAKET ANTI KARAT' },
-      { text: 'PAKET SUPER MENGGIGIL' },
-      { text: 'PAKET ANTI KARAT TRIPLE COMBO' },
-      { text: 'PAKET NANO CERAMIC COATING' },
-      { text: 'PAKET DETAILING' },
+      { text: "PAKET ANTI KARAT", href: "/paket/anti-karat" },
+      { text: "PAKET SUPER MENGGIGIL", href: "/paket/ac-super-menggigil" },
+      {
+        text: "PAKET ANTI KARAT TRIPLE COMBO",
+        href: "/paket/anti-karat-triple-combo",
+      },
+      {
+        text: "PAKET NANO CERAMIC COATING",
+        href: "/paket/nano-ceramic-coating",
+      },
+      { text: "PAKET DETAILING", href: "/paket/detailing" },
     ],
   },
-  { text: 'FAQ' },
-  { text: 'COMPANY PROFILE' },
-  { text: 'TESTIMONI' },
-  { text: 'SOSIAL MEDIA' },
+  { text: "FAQ", href: "#" },
+  { text: "COMPANY PROFILE", href: "#" },
+  { text: "TESTIMONI", href: "#" },
+  { text: "SOSIAL MEDIA", href: "#" },
 ];
 
-// --- KOMPONEN BARU UNTUK SETIAP ITEM MENU ---
+// --- KOMPONEN ITEM MENU (tetap sama) ---
 const MenuItem = ({ item }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const hasSubMenu = item.subMenu && item.subMenu.length > 0;
+  const subMenuRef = useRef(null);
+  const hasSubMenu = !!(item.subMenu && item.subMenu.length > 0);
 
-  return (
-    <div>
-      <button
-        onClick={() => hasSubMenu && setIsOpen(!isOpen)}
-        className="flex w-full items-center justify-between rounded-full bg-gradient-to-br from-black to-[#666666] p-3 text-left text-sm font-bold text-white shadow-md transition-transform hover:scale-105"
-      >
-        <span>{item.text}</span>
-        {hasSubMenu ? (
+  const containerDuration = useMemo(() => {
+    const numItems = item.subMenu?.length || 0;
+    return 0.2 + numItems * 0.03;
+  }, [item.subMenu]);
+
+  useEffect(() => {
+    const subMenuElement = subMenuRef.current;
+    if (hasSubMenu && subMenuElement) {
+      if (isOpen) {
+        gsap.to(subMenuElement, {
+          height: "auto",
+          duration: containerDuration,
+          ease: "power2.inOut",
+        });
+        gsap.fromTo(
+          subMenuElement.children,
+          { opacity: 0, y: -10 },
+          { opacity: 1, y: 0, stagger: 0.05, duration: 0.2, ease: "power2.out" }
+        );
+      } else {
+        gsap.to(subMenuElement.children, {
+          opacity: 0,
+          y: -10,
+          stagger: 0.03,
+          duration: 0.15,
+          ease: "power2.in",
+          onComplete: () =>
+            gsap.to(subMenuElement, {
+              height: 0,
+              duration: containerDuration,
+              ease: "power2.inOut",
+            }),
+        });
+      }
+    }
+  }, [isOpen, containerDuration, hasSubMenu]);
+
+  const commonClasses =
+    "flex w-full items-center justify-between rounded-full bg-gradient-to-br from-black to-[#666666] p-3 text-left text-sm font-bold text-white shadow-md transition-transform hover:scale-105";
+
+  if (hasSubMenu) {
+    return (
+      <div>
+        <button onClick={() => setIsOpen(!isOpen)} className={commonClasses}>
+          <span>{item.text}</span>
           <ChevronDown
             className={`h-5 w-5 text-gray-300 transition-transform duration-200 ${
-              isOpen ? 'rotate-180' : ''
+              isOpen ? "rotate-180" : ""
             }`}
           />
-        ) : (
-          <ChevronRight className="h-5 w-5 text-gray-300" />
-        )}
-      </button>
-      {hasSubMenu && isOpen && (
-        <div className="pl-4 pr-2 py-2 flex flex-col items-start gap-2">
+        </button>
+        <div
+          ref={subMenuRef}
+          className="pl-4 pr-2 pt-2 flex flex-col items-start gap-2 overflow-hidden"
+          style={{ height: 0 }}
+        >
           {item.subMenu.map((subItem) => (
             <a
               key={subItem.text}
-              href="#"
-              className="text-gray-800 font-semibold underline text-sm"
+              href={subItem.href || "#"}
+              className="text-gray-800 font-semibold underline text-sm opacity-0"
             >
               {subItem.text}
             </a>
           ))}
         </div>
-      )}
-    </div>
+      </div>
+    );
+  }
+
+  return (
+    <a href={item.href || "#"} className={commonClasses}>
+      <span>{item.text}</span>
+      <ChevronRight className="h-5 w-5 text-gray-300" />
+    </a>
   );
 };
 
-// --- KOMPONEN HEADER UTAMA ---
+// --- KOMPONEN HEADER UTAMA (DIPERBARUI) ---
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+  const pathname = usePathname();
+  const isHomePage = pathname === "/";
 
   return (
     <>
       <header className="sticky top-0 z-30 bg-[#484149]/80 backdrop-blur-sm">
         <div className="absolute top-0 h-1 w-full bg-red-600"></div>
-        <div className="container mx-auto flex items-center justify-between p-4 pt-5">
-          <div className="w-1/3"></div>
-          <div className="flex w-1/3 justify-center">
+        {/* Kontainer diubah menggunakan absolute positioning */}
+        <div className="relative container mx-auto flex items-center justify-center p-4 pt-5">
+          {/* Tombol Back (kiri) */}
+          <div className="absolute left-4 top-1/2 -translate-y-1/2">
+            {!isHomePage && (
+              <Link
+                href="/"
+                className="p-2 text-white transition-opacity hover:opacity-80"
+              >
+                <ArrowLeft className="h-6 w-6" />
+              </Link>
+            )}
+          </div>
+
+          {/* Logo (tengah) */}
+          <div className="flex justify-center">
             <Image
               src="/logo.webp"
               alt="TJM Auto Care Logo"
@@ -114,7 +174,9 @@ export const Header = () => {
               className="h-12 w-auto"
             />
           </div>
-          <div className="flex w-1/3 justify-end">
+
+          {/* Tombol Menu (kanan) */}
+          <div className="absolute right-4 top-1/2 -translate-y-1/2">
             <button
               onClick={toggleMenu}
               className="p-2 transition-opacity hover:opacity-80"
@@ -125,21 +187,19 @@ export const Header = () => {
         </div>
       </header>
 
-      {/* Overlay */}
+      {/* Overlay dan Menu Slide-in (tetap sama) */}
       <div
         className={`fixed inset-0 bg-black/60 z-40 transition-opacity duration-300 ${
-          isMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
+          isMenuOpen ? "opacity-100" : "opacity-0 pointer-events-none"
         }`}
         onClick={toggleMenu}
       ></div>
-
-      {/* Slide-in Menu */}
       <div
-        className={`fixed top-0 right-0 h-full w-[75%] max-w-sm bg-white shadow-2xl z-50 transition-transform duration-300 ease-in-out flex flex-col ${
-          isMenuOpen ? 'translate-x-0' : 'translate-x-full'
+        className={`fixed top-0 right-0 h-fit max-h-screen w-[75%] max-w-sm bg-white shadow-2xl z-50 transition-transform duration-300 ease-in-out flex flex-col ${
+          isMenuOpen ? "translate-x-0" : "translate-x-full"
         } rounded-l-2xl rounded-br-2xl`}
       >
-        <div className="p-4 flex-shrink-0">
+        <div className="p-4 md:p-6 flex-shrink-0">
           <div className="flex items-center justify-between mb-6">
             <Image
               src="/logo.webp"
@@ -153,9 +213,7 @@ export const Header = () => {
             </button>
           </div>
         </div>
-
-        {/* Kontainer menu yang bisa di-scroll */}
-        <nav className="flex-grow overflow-y-auto px-4 pb-8">
+        <nav className="flex-grow overflow-y-auto px-4 md:px-6 pb-8 md:pb-12">
           <div className="flex flex-col gap-3">
             {menuData.map((item) => (
               <MenuItem key={item.text} item={item} />
