@@ -54,7 +54,7 @@ const menuData = [
   { text: 'FAQ', href: '/faq' },
   { text: 'COMPANY PROFILE', href: '/compro' },
   { text: 'TESTIMONI', href: '#' },
-  { text: 'SOSIAL MEDIA', href: '#' },
+  { text: 'SOSIAL MEDIA', href: '/social' },
 ];
 
 // --- KOMPONEN ITEM MENU ---
