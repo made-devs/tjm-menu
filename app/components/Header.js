@@ -1,60 +1,48 @@
 // app/components/Header.jsx
-"use client";
+'use client';
 
-import { useState, useRef, useEffect, useMemo } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { gsap } from "gsap";
-import { Menu, X, ChevronRight, ChevronDown, ArrowLeft } from "lucide-react";
+import { useState, useRef, useEffect, useMemo } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { usePathname, useRouter } from 'next/navigation'; // Import useRouter
+import { gsap } from 'gsap';
+import { Menu, X, ChevronRight, ChevronDown, ArrowLeft } from 'lucide-react';
 
-// --- DATA MENU (tetap sama) ---
+// --- DATA MENU ---
 const menuData = [
   {
-    text: "PROMO PAKET SERVICE",
+    text: 'PROMO PAKET SERVICE',
     subMenu: [
-      { text: "PAKET KAKI - KAKI", href: "/paket/kaki-kaki" },
-      { text: "PAKET COMBO KAKI - KAKI", href: "/paket/combo-kaki-kaki" },
-      { text: "PAKET COMBO SUPER KOMPLIT", href: "/paket/combo-super-komplit" },
-      { text: "PAKET SUPER HEMAT", href: "/paket/super-hemat" },
-      { text: "PAKET STEERING", href: "/paket/steering" },
-      { text: "PAKET RACKSTEER HEMAT", href: "/paket/racksteer-hemat" },
-      { text: "PAKET DIESEL", href: "/paket/diesel" },
-      { text: "PAKET SPECIAL", href: "/paket/special" },
-      { text: "PAKET OVERHAUL ENGINE", href: "/paket/overhaul-engine" },
+      { text: 'PAKET KAKI - KAKI', href: '/paket/kaki-kaki' },
+      { text: 'PAKET COMBO KAKI - KAKI', href: '/paket/combo-kaki-kaki' },
+      { text: 'PAKET COMBO SUPER KOMPLIT', href: '/paket/combo-super-komplit' },
+      { text: 'PAKET SUPER HEMAT', href: '/paket/super-hemat' },
+      { text: 'PAKET STEERING', href: '/paket/steering' },
+      { text: 'PAKET RACKSTEER HEMAT', href: '/paket/racksteer-hemat' },
+      { text: 'PAKET DIESEL', href: '/paket/diesel' },
+      { text: 'PAKET SPECIAL', href: '/paket/special' },
+      { text: 'PAKET OVERHAUL ENGINE', href: '/paket/overhaul-engine' },
     ],
   },
   {
-    text: "PROMO BULAN INI",
-    subMenu: [{ text: "21 PROMO GRATIS SENILAI 4,1 JT", href: "#" }],
+    text: 'PROMO BULAN INI',
+    subMenu: [{ text: '21 PROMO GRATIS SENILAI 4,1 JT', href: '/promo' }],
   },
   {
-    text: "PROMO PAKET MEMBER",
-    subMenu: [{ text: "PAKET MEMBER TAHUNAN KOMPLIT", href: "#" }],
+    text: 'PROMO PAKET MEMBER',
+    subMenu: [{ text: 'PAKET MEMBER TAHUNAN KOMPLIT', href: '#' }],
   },
   {
-    text: "PROMO TEBUS MURAH",
-    subMenu: [
-      { text: "PAKET ANTI KARAT", href: "/paket/anti-karat" },
-      { text: "PAKET SUPER MENGGIGIL", href: "/paket/ac-super-menggigil" },
-      {
-        text: "PAKET ANTI KARAT TRIPLE COMBO",
-        href: "/paket/anti-karat-triple-combo",
-      },
-      {
-        text: "PAKET NANO CERAMIC COATING",
-        href: "/paket/nano-ceramic-coating",
-      },
-      { text: "PAKET DETAILING", href: "/paket/detailing" },
-    ],
+    text: 'PROMO TEBUS MURAH',
+    href: '/tebus-murah', // Link untuk kategori utama
   },
-  { text: "FAQ", href: "#" },
-  { text: "COMPANY PROFILE", href: "#" },
-  { text: "TESTIMONI", href: "#" },
-  { text: "SOSIAL MEDIA", href: "#" },
+  { text: 'FAQ', href: '#' },
+  { text: 'COMPANY PROFILE', href: '#' },
+  { text: 'TESTIMONI', href: '#' },
+  { text: 'SOSIAL MEDIA', href: '#' },
 ];
 
-// --- KOMPONEN ITEM MENU (tetap sama) ---
+// --- KOMPONEN ITEM MENU ---
 const MenuItem = ({ item }) => {
   const [isOpen, setIsOpen] = useState(false);
   const subMenuRef = useRef(null);
@@ -70,14 +58,14 @@ const MenuItem = ({ item }) => {
     if (hasSubMenu && subMenuElement) {
       if (isOpen) {
         gsap.to(subMenuElement, {
-          height: "auto",
+          height: 'auto',
           duration: containerDuration,
-          ease: "power2.inOut",
+          ease: 'power2.inOut',
         });
         gsap.fromTo(
           subMenuElement.children,
           { opacity: 0, y: -10 },
-          { opacity: 1, y: 0, stagger: 0.05, duration: 0.2, ease: "power2.out" }
+          { opacity: 1, y: 0, stagger: 0.05, duration: 0.2, ease: 'power2.out' }
         );
       } else {
         gsap.to(subMenuElement.children, {
@@ -85,12 +73,12 @@ const MenuItem = ({ item }) => {
           y: -10,
           stagger: 0.03,
           duration: 0.15,
-          ease: "power2.in",
+          ease: 'power2.in',
           onComplete: () =>
             gsap.to(subMenuElement, {
               height: 0,
               duration: containerDuration,
-              ease: "power2.inOut",
+              ease: 'power2.inOut',
             }),
         });
       }
@@ -98,7 +86,7 @@ const MenuItem = ({ item }) => {
   }, [isOpen, containerDuration, hasSubMenu]);
 
   const commonClasses =
-    "flex w-full items-center justify-between rounded-full bg-gradient-to-br from-black to-[#666666] p-3 text-left text-sm font-bold text-white shadow-md transition-transform hover:scale-105";
+    'flex w-full items-center justify-between rounded-full bg-gradient-to-br from-black to-[#666666] p-3 text-left text-sm font-bold text-white shadow-md transition-transform hover:scale-105';
 
   if (hasSubMenu) {
     return (
@@ -107,7 +95,7 @@ const MenuItem = ({ item }) => {
           <span>{item.text}</span>
           <ChevronDown
             className={`h-5 w-5 text-gray-300 transition-transform duration-200 ${
-              isOpen ? "rotate-180" : ""
+              isOpen ? 'rotate-180' : ''
             }`}
           />
         </button>
@@ -117,13 +105,13 @@ const MenuItem = ({ item }) => {
           style={{ height: 0 }}
         >
           {item.subMenu.map((subItem) => (
-            <a
+            <Link
               key={subItem.text}
-              href={subItem.href || "#"}
+              href={subItem.href || '#'}
               className="text-gray-800 font-semibold underline text-sm opacity-0"
             >
               {subItem.text}
-            </a>
+            </Link>
           ))}
         </div>
       </div>
@@ -131,35 +119,35 @@ const MenuItem = ({ item }) => {
   }
 
   return (
-    <a href={item.href || "#"} className={commonClasses}>
+    <Link href={item.href || '#'} className={commonClasses}>
       <span>{item.text}</span>
       <ChevronRight className="h-5 w-5 text-gray-300" />
-    </a>
+    </Link>
   );
 };
 
-// --- KOMPONEN HEADER UTAMA (DIPERBARUI) ---
+// --- KOMPONEN HEADER UTAMA ---
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   const pathname = usePathname();
-  const isHomePage = pathname === "/";
+  const router = useRouter(); // Gunakan useRouter
+  const isHomePage = pathname === '/';
 
   return (
     <>
       <header className="sticky top-0 z-30 bg-[#484149]/80 backdrop-blur-sm">
         <div className="absolute top-0 h-1 w-full bg-red-600"></div>
-        {/* Kontainer diubah menggunakan absolute positioning */}
-        <div className="relative container mx-auto flex items-center justify-center p-4 pt-5">
+        <div className="relative container mx-auto flex items-center justify-center p-4 h-[72px]">
           {/* Tombol Back (kiri) */}
           <div className="absolute left-4 top-1/2 -translate-y-1/2">
             {!isHomePage && (
-              <Link
-                href="/"
+              <button
+                onClick={() => router.back()} // Panggil router.back()
                 className="p-2 text-white transition-opacity hover:opacity-80"
               >
                 <ArrowLeft className="h-6 w-6" />
-              </Link>
+              </button>
             )}
           </div>
 
@@ -187,16 +175,16 @@ export const Header = () => {
         </div>
       </header>
 
-      {/* Overlay dan Menu Slide-in (tetap sama) */}
+      {/* Overlay dan Menu Slide-in */}
       <div
         className={`fixed inset-0 bg-black/60 z-40 transition-opacity duration-300 ${
-          isMenuOpen ? "opacity-100" : "opacity-0 pointer-events-none"
+          isMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
         }`}
         onClick={toggleMenu}
       ></div>
       <div
         className={`fixed top-0 right-0 h-fit max-h-screen w-[75%] max-w-sm bg-white shadow-2xl z-50 transition-transform duration-300 ease-in-out flex flex-col ${
-          isMenuOpen ? "translate-x-0" : "translate-x-full"
+          isMenuOpen ? 'translate-x-0' : 'translate-x-full'
         } rounded-l-2xl rounded-br-2xl`}
       >
         <div className="p-4 md:p-6 flex-shrink-0">

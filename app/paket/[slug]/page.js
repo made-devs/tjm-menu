@@ -1,10 +1,9 @@
 // app/paket/[slug]/page.jsx
-"use client";
+'use client';
 
-import { useParams } from "next/navigation";
-import { packagesData } from "../../data/packages";
-import { PackageCard } from "../../components/PackageCard";
-import { Footer } from "../../components/Footer";
+import { useParams } from 'next/navigation';
+import { packagesData } from '../../data/packages';
+import { PackageCard } from '../../components/PackageCard';
 
 export default function PaketDetailPage() {
   const params = useParams();
