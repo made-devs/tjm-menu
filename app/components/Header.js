@@ -4,7 +4,7 @@
 import { useState, useRef, useEffect, useMemo } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { usePathname, useRouter } from 'next/navigation'; // Import useRouter
+import { usePathname, useRouter } from 'next/navigation';
 import { gsap } from 'gsap';
 import { Menu, X, ChevronRight, ChevronDown, ArrowLeft } from 'lucide-react';
 
@@ -34,16 +34,32 @@ const menuData = [
   },
   {
     text: 'PROMO TEBUS MURAH',
-    href: '/tebus-murah', // Link untuk kategori utama
+    subMenu: [
+      { text: 'PAKET ANTI KARAT', href: '/tebus-murah/anti-karat' },
+      {
+        text: 'PAKET AC SUPER MENGGIGIL',
+        href: '/tebus-murah/ac-super-menggigil',
+      },
+      {
+        text: 'PAKET ANTI KARAT TRIPLE COMBO',
+        href: '/tebus-murah/anti-karat-triple-combo',
+      },
+      { text: 'PAKET DETAILING', href: '/tebus-murah/detailing' },
+      {
+        text: 'PAKET NANO CERAMIC COATING',
+        href: '/tebus-murah/nano-ceramic-coating',
+      },
+    ],
   },
-  { text: 'FAQ', href: '#' },
-  { text: 'COMPANY PROFILE', href: '#' },
+  { text: 'FAQ', href: '/faq' },
+  { text: 'COMPANY PROFILE', href: '/compro' },
   { text: 'TESTIMONI', href: '#' },
   { text: 'SOSIAL MEDIA', href: '#' },
 ];
 
 // --- KOMPONEN ITEM MENU ---
-const MenuItem = ({ item }) => {
+// Menerima prop `closeMenu` untuk menutup menu saat di-klik
+const MenuItem = ({ item, closeMenu }) => {
   const [isOpen, setIsOpen] = useState(false);
   const subMenuRef = useRef(null);
   const hasSubMenu = !!(item.subMenu && item.subMenu.length > 0);
@@ -109,6 +125,7 @@ const MenuItem = ({ item }) => {
               key={subItem.text}
               href={subItem.href || '#'}
               className="text-gray-800 font-semibold underline text-sm opacity-0"
+              onClick={closeMenu} // Menambahkan onClick untuk menutup menu
             >
               {subItem.text}
             </Link>
@@ -119,7 +136,7 @@ const MenuItem = ({ item }) => {
   }
 
   return (
-    <Link href={item.href || '#'} className={commonClasses}>
+    <Link href={item.href || '#'} className={commonClasses} onClick={closeMenu}>
       <span>{item.text}</span>
       <ChevronRight className="h-5 w-5 text-gray-300" />
     </Link>
@@ -129,10 +146,17 @@ const MenuItem = ({ item }) => {
 // --- KOMPONEN HEADER UTAMA ---
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+  const [isMounted, setIsMounted] = useState(false);
   const pathname = usePathname();
-  const router = useRouter(); // Gunakan useRouter
+  const router = useRouter();
   const isHomePage = pathname === '/';
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+  const closeMenu = () => setIsMenuOpen(false); // Fungsi khusus untuk menutup menu
 
   return (
     <>
@@ -143,7 +167,7 @@ export const Header = () => {
           <div className="absolute left-4 top-1/2 -translate-y-1/2">
             {!isHomePage && (
               <button
-                onClick={() => router.back()} // Panggil router.back()
+                onClick={() => router.back()}
                 className="p-2 text-white transition-opacity hover:opacity-80"
               >
                 <ArrowLeft className="h-6 w-6" />
@@ -180,7 +204,7 @@ export const Header = () => {
         className={`fixed inset-0 bg-black/60 z-40 transition-opacity duration-300 ${
           isMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
         }`}
-        onClick={toggleMenu}
+        onClick={closeMenu} // Gunakan closeMenu di sini juga
       ></div>
       <div
         className={`fixed top-0 right-0 h-fit max-h-screen w-[75%] max-w-sm bg-white shadow-2xl z-50 transition-transform duration-300 ease-in-out flex flex-col ${
@@ -196,16 +220,17 @@ export const Header = () => {
               height={36}
               className="h-9 w-auto"
             />
-            <button onClick={toggleMenu} className="p-2 text-gray-800">
+            <button onClick={closeMenu} className="p-2 text-gray-800">
               <X className="h-6 w-6" />
             </button>
           </div>
         </div>
         <nav className="flex-grow overflow-y-auto px-4 md:px-6 pb-8 md:pb-12">
           <div className="flex flex-col gap-3">
-            {menuData.map((item) => (
-              <MenuItem key={item.text} item={item} />
-            ))}
+            {isMounted &&
+              menuData.map((item) => (
+                <MenuItem key={item.text} item={item} closeMenu={closeMenu} />
+              ))}
           </div>
         </nav>
       </div>
