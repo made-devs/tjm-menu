@@ -30,7 +30,7 @@ const menuData = [
   },
   {
     text: 'PROMO PAKET MEMBER',
-    subMenu: [{ text: 'PAKET MEMBER TAHUNAN KOMPLIT', href: '#' }],
+    subMenu: [{ text: 'PAKET MEMBER TAHUNAN KOMPLIT', href: '/member' }],
   },
   {
     text: 'PROMO TEBUS MURAH',

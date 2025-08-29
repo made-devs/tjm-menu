@@ -1,20 +1,17 @@
-// app/tebus-murah/[detailSlug]/page.jsx
+// app/member/page.jsx
 'use client';
 
-import { useParams } from 'next/navigation';
 import Image from 'next/image';
-import { packagesData } from '../../data/packages';
 
-export default function TebusMurahDetailPage() {
-  const params = useParams();
-  const detailSlug = params.detailSlug;
+// Data untuk halaman ini ditaruh langsung di sini
+const packageDetail = {
+  title: 'PAKET MEMBER TAHUNAN KOMPLIT',
+  image: '/image/paketmember.webp', // Ganti dengan link gambar yang benar
+  normalPrice: 'IDR 12.500K',
+  discountPrice: 'IDR 2.500K',
+};
 
-  // Cari data paket tebus murah
-  const categoryData = packagesData['tebus-murah'];
-  const packageDetail = categoryData?.packages.find(
-    (p) => p.detailSlug === detailSlug
-  );
-
+export default function MemberPage() {
   if (!packageDetail) {
     return (
       <div className="text-center py-10">
@@ -30,7 +27,7 @@ export default function TebusMurahDetailPage() {
           {packageDetail.title}
         </h1>
 
-        <div className="relative aspect-[4/5] w-full overflow-hidden rounded-md border-2 border-red-600">
+        <div className="relative aspect-square w-full overflow-hidden rounded-md border-2 border-red-600">
           <Image
             src={packageDetail.image}
             alt={packageDetail.title}
