@@ -24,7 +24,7 @@ export const TestimoniCard = ({ testimoni }) => {
   return (
     // Menggunakan background gradient dan border untuk desain kartu
     <div className="flex h-full flex-col justify-between rounded-xl border border-zinc-700 bg-gradient-to-br from-[#1F1D20] via-[#333238] to-[#484149] p-6 text-white shadow-lg">
-      <blockquote className="italic">"{quote}"</blockquote>
+      <blockquote className="italic">&quot;{quote}&quot;</blockquote>
       <div className="mt-4">
         <StarRating rating={rating} />
         <p className="mt-2 font-bold">{customerName}</p>
