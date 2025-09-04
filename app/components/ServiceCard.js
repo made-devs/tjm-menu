@@ -39,7 +39,7 @@ export const ServiceCard = ({ title, images, slug }) => {
         {/* Tombol hanya akan muncul jika bukan kartu garansi */}
         {!isWarrantyCard && slug && (
           <Link
-            href={`/promo/${slug}`}
+            href={`/${slug}`}
             className="flex-shrink-0 rounded-full border border-red-600 bg-gradient-to-br from-[#484149] via-[#333238] to-[#1F1D20] px-4 py-1.5 text-xs font-bold text-white shadow-md transition-transform hover:scale-105"
           >
             AMBIL PROMO
