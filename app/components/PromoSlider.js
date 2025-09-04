@@ -1,10 +1,10 @@
 // app/components/PromoSlider.jsx
-'use client';
+"use client";
 
-import { useState } from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export const PromoSlider = ({ promos }) => {
   const [currentIndex, setCurrentIndex] = useState(0);

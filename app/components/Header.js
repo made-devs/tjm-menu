@@ -1,60 +1,60 @@
 // app/components/Header.jsx
-'use client';
+"use client";
 
-import { useState, useRef, useEffect, useMemo } from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import { usePathname, useRouter } from 'next/navigation';
-import { gsap } from 'gsap';
-import { Menu, X, ChevronRight, ChevronDown, ArrowLeft } from 'lucide-react';
+import { useState, useRef, useEffect, useMemo } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { usePathname, useRouter } from "next/navigation";
+import { gsap } from "gsap";
+import { Menu, X, ChevronRight, ChevronDown, ArrowLeft } from "lucide-react";
 
 // --- DATA MENU ---
 const menuData = [
   {
-    text: 'PROMO PAKET SERVICE',
+    text: "PROMO PAKET SERVICE",
     subMenu: [
-      { text: 'PAKET KAKI - KAKI', href: '/paket/kaki-kaki' },
-      { text: 'PAKET COMBO KAKI - KAKI', href: '/paket/combo-kaki-kaki' },
-      { text: 'PAKET COMBO SUPER KOMPLIT', href: '/paket/combo-super-komplit' },
-      { text: 'PAKET SUPER HEMAT', href: '/paket/super-hemat' },
-      { text: 'PAKET STEERING', href: '/paket/steering' },
-      { text: 'PAKET RACKSTEER HEMAT', href: '/paket/racksteer-hemat' },
-      { text: 'PAKET DIESEL', href: '/paket/diesel' },
-      { text: 'PAKET SPECIAL', href: '/paket/special' },
-      { text: 'PAKET OVERHAUL ENGINE', href: '/paket/overhaul-engine' },
+      { text: "PAKET KAKI - KAKI", href: "/paket/kaki-kaki" },
+      { text: "PAKET COMBO KAKI - KAKI", href: "/paket/combo-kaki-kaki" },
+      { text: "PAKET COMBO SUPER KOMPLIT", href: "/paket/combo-super-komplit" },
+      { text: "PAKET SUPER HEMAT", href: "/paket/super-hemat" },
+      { text: "PAKET STEERING", href: "/paket/steering" },
+      { text: "PAKET RACKSTEER HEMAT", href: "/paket/racksteer-hemat" },
+      { text: "PAKET DIESEL", href: "/paket/diesel" },
+      { text: "PAKET SPECIAL", href: "/paket/special" },
+      { text: "PAKET OVERHAUL ENGINE", href: "/paket/overhaul-engine" },
     ],
   },
   {
-    text: 'PROMO BULAN INI',
-    subMenu: [{ text: '21 PROMO GRATIS SENILAI 4,1 JT', href: '/promo' }],
+    text: "PROMO BULAN INI",
+    subMenu: [{ text: "21 PROMO GRATIS SENILAI 4,1 JT", href: "/promo" }],
   },
   {
-    text: 'PROMO PAKET MEMBER',
-    subMenu: [{ text: 'PAKET MEMBER TAHUNAN KOMPLIT', href: '/member' }],
+    text: "PROMO PAKET MEMBER",
+    subMenu: [{ text: "PAKET MEMBER TAHUNAN KOMPLIT", href: "/member" }],
   },
   {
-    text: 'PROMO TEBUS MURAH',
+    text: "PROMO TEBUS MURAH",
     subMenu: [
-      { text: 'PAKET ANTI KARAT', href: '/tebus-murah/anti-karat' },
+      { text: "PAKET ANTI KARAT", href: "/tebus-murah/anti-karat" },
       {
-        text: 'PAKET AC SUPER MENGGIGIL',
-        href: '/tebus-murah/ac-super-menggigil',
+        text: "PAKET AC SUPER MENGGIGIL",
+        href: "/tebus-murah/ac-super-menggigil",
       },
       {
-        text: 'PAKET ANTI KARAT TRIPLE COMBO',
-        href: '/tebus-murah/anti-karat-triple-combo',
+        text: "PAKET ANTI KARAT TRIPLE COMBO",
+        href: "/tebus-murah/anti-karat-triple-combo",
       },
-      { text: 'PAKET DETAILING', href: '/tebus-murah/detailing' },
+      { text: "PAKET DETAILING", href: "/tebus-murah/detailing" },
       {
-        text: 'PAKET NANO CERAMIC COATING',
-        href: '/tebus-murah/nano-ceramic-coating',
+        text: "PAKET NANO CERAMIC COATING",
+        href: "/tebus-murah/nano-ceramic-coating",
       },
     ],
   },
-  { text: 'FAQ', href: '/faq' },
-  { text: 'COMPANY PROFILE', href: '/compro' },
-  { text: 'TESTIMONI', href: '#' },
-  { text: 'SOSIAL MEDIA', href: '/social' },
+  { text: "FAQ", href: "/faq" },
+  { text: "COMPANY PROFILE", href: "/compro" },
+  { text: "TESTIMONI", href: "/testimoni" },
+  { text: "SOSIAL MEDIA", href: "/social" },
 ];
 
 // --- KOMPONEN ITEM MENU ---
@@ -74,14 +74,14 @@ const MenuItem = ({ item, closeMenu }) => {
     if (hasSubMenu && subMenuElement) {
       if (isOpen) {
         gsap.to(subMenuElement, {
-          height: 'auto',
+          height: "auto",
           duration: containerDuration,
-          ease: 'power2.inOut',
+          ease: "power2.inOut",
         });
         gsap.fromTo(
           subMenuElement.children,
           { opacity: 0, y: -10 },
-          { opacity: 1, y: 0, stagger: 0.05, duration: 0.2, ease: 'power2.out' }
+          { opacity: 1, y: 0, stagger: 0.05, duration: 0.2, ease: "power2.out" }
         );
       } else {
         gsap.to(subMenuElement.children, {
@@ -89,12 +89,12 @@ const MenuItem = ({ item, closeMenu }) => {
           y: -10,
           stagger: 0.03,
           duration: 0.15,
-          ease: 'power2.in',
+          ease: "power2.in",
           onComplete: () =>
             gsap.to(subMenuElement, {
               height: 0,
               duration: containerDuration,
-              ease: 'power2.inOut',
+              ease: "power2.inOut",
             }),
         });
       }
@@ -102,7 +102,7 @@ const MenuItem = ({ item, closeMenu }) => {
   }, [isOpen, containerDuration, hasSubMenu]);
 
   const commonClasses =
-    'flex w-full items-center justify-between rounded-full bg-gradient-to-br from-black to-[#666666] p-3 text-left text-sm font-bold text-white shadow-md transition-transform hover:scale-105';
+    "flex w-full items-center justify-between rounded-full bg-gradient-to-br from-black to-[#666666] p-3 text-left text-sm font-bold text-white shadow-md transition-transform hover:scale-105";
 
   if (hasSubMenu) {
     return (
@@ -111,7 +111,7 @@ const MenuItem = ({ item, closeMenu }) => {
           <span>{item.text}</span>
           <ChevronDown
             className={`h-5 w-5 text-gray-300 transition-transform duration-200 ${
-              isOpen ? 'rotate-180' : ''
+              isOpen ? "rotate-180" : ""
             }`}
           />
         </button>
@@ -123,7 +123,7 @@ const MenuItem = ({ item, closeMenu }) => {
           {item.subMenu.map((subItem) => (
             <Link
               key={subItem.text}
-              href={subItem.href || '#'}
+              href={subItem.href || "#"}
               className="text-gray-800 font-semibold underline text-sm opacity-0"
               onClick={closeMenu} // Menambahkan onClick untuk menutup menu
             >
@@ -136,7 +136,7 @@ const MenuItem = ({ item, closeMenu }) => {
   }
 
   return (
-    <Link href={item.href || '#'} className={commonClasses} onClick={closeMenu}>
+    <Link href={item.href || "#"} className={commonClasses} onClick={closeMenu}>
       <span>{item.text}</span>
       <ChevronRight className="h-5 w-5 text-gray-300" />
     </Link>
@@ -149,7 +149,7 @@ export const Header = () => {
   const [isMounted, setIsMounted] = useState(false);
   const pathname = usePathname();
   const router = useRouter();
-  const isHomePage = pathname === '/';
+  const isHomePage = pathname === "/";
 
   useEffect(() => {
     setIsMounted(true);
@@ -202,13 +202,13 @@ export const Header = () => {
       {/* Overlay dan Menu Slide-in */}
       <div
         className={`fixed inset-0 bg-black/60 z-40 transition-opacity duration-300 ${
-          isMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
+          isMenuOpen ? "opacity-100" : "opacity-0 pointer-events-none"
         }`}
         onClick={closeMenu} // Gunakan closeMenu di sini juga
       ></div>
       <div
         className={`fixed top-0 right-0 h-fit max-h-screen w-[75%] max-w-sm bg-white shadow-2xl z-50 transition-transform duration-300 ease-in-out flex flex-col ${
-          isMenuOpen ? 'translate-x-0' : 'translate-x-full'
+          isMenuOpen ? "translate-x-0" : "translate-x-full"
         } rounded-l-2xl rounded-br-2xl`}
       >
         <div className="p-4 md:p-6 flex-shrink-0">

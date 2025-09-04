@@ -1,7 +1,7 @@
 // app/components/ServiceSection.jsx
 
-import { serviceCategories } from '../data/services';
-import { ServiceCard } from './ServiceCard';
+import { serviceCategories } from "../data/services";
+import { ServiceCard } from "./ServiceCard";
 
 export const ServiceSection = () => (
   <section className="space-y-8 p-4">
@@ -13,6 +13,7 @@ export const ServiceSection = () => (
         key={index}
         title={category.title}
         images={category.images}
+        slug={category.slug} // Mengirim slug ke komponen ServiceCard
       />
     ))}
   </section>

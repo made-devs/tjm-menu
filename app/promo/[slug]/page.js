@@ -1,9 +1,9 @@
 // app/promo/[slug]/page.jsx
-'use client';
+"use client";
 
-import { useParams } from 'next/navigation';
-import { promoData } from '../../data/promos';
-import { PromoDetailSlider } from '../../components/PromoDetailSlider';
+import { useParams } from "next/navigation";
+import { promoData } from "../../data/promos";
+import { PromoDetailSlider } from "../../components/PromoDetailSlider";
 
 export default function PromoDetailPage() {
   const params = useParams();
@@ -26,12 +26,7 @@ export default function PromoDetailPage() {
         PROMO BULAN INI
       </h1>
 
-      <PromoDetailSlider slides={promo.details.slides} />
-
-      {/* Judul promo dinamis di bawah slider */}
-      <h2 className="text-center text-lg font-bold tracking-wide mt-4 px-4">
-        {promo.title}
-      </h2>
+      <PromoDetailSlider slides={promo.details.slides} title={promo.title} />
     </section>
   );
 }

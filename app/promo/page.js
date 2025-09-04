@@ -1,6 +1,6 @@
 // app/promo/page.jsx
-import { PromoSlider } from '../components/PromoSlider';
-import { promoData } from '../data/promos';
+import { PromoSlider } from "../components/PromoSlider";
+import { promoData } from "../data/promos";
 
 export default function PromoPage() {
   return (

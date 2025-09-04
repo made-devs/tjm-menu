@@ -1,11 +1,11 @@
 // app/components/PromoDetailSlider.jsx
-'use client';
+"use client";
 
-import { useState } from 'react';
-import Image from 'next/image';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { useState } from "react";
+import Image from "next/image";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
-export const PromoDetailSlider = ({ slides }) => {
+export const PromoDetailSlider = ({ slides, title }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handlePrev = () => {
@@ -64,14 +64,18 @@ export const PromoDetailSlider = ({ slides }) => {
         )}
       </div>
 
-      {/* Deskripsi hanya muncul jika ada */}
-      {currentSlide.description && (
-        <div className="text-center px-4">
-          <p className="text-sm font-medium text-gray-300">
-            {currentSlide.description}
-          </p>
-        </div>
-      )}
+      <div className="text-center px-4 space-y-2">
+        {/* Judul promo dinamis di sini */}
+        <h2 className="text-lg font-bold tracking-wide">{title}</h2>
+
+        {/* Deskripsi hanya muncul jika ada dan akan merender HTML */}
+        {currentSlide.description && (
+          <p
+            className="text-sm font-medium text-gray-300"
+            dangerouslySetInnerHTML={{ __html: currentSlide.description }}
+          />
+        )}
+      </div>
     </div>
   );
 };

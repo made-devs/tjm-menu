@@ -1,21 +1,12 @@
 // app/components/AboutUs.jsx
-'use client';
+"use client";
 
-import Image from 'next/image';
+import Image from "next/image";
 
 export const AboutUs = () => {
   return (
     <div className="mt-8">
-      <div className="px-4">
-        <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden">
-          <Image
-            src="/image/compro1.webp" // Ganti dengan foto yang sesuai nanti
-            alt="TJM Auto Care Team"
-            fill
-            className="object-cover"
-          />
-        </div>
-      </div>
+      <div className="px-4"></div>
 
       <div className="relative text-center my-8">
         <div className="relative inline-block px-4">

@@ -1,10 +1,10 @@
 // app/faq/page.jsx
-'use client';
+"use client";
 
-import { useState, useRef, useEffect } from 'react';
-import { gsap } from 'gsap';
-import { Plus } from 'lucide-react';
-import { faqData } from '../data/faq';
+import { useState, useRef, useEffect } from "react";
+import { gsap } from "gsap";
+import { Plus } from "lucide-react";
+import { faqData } from "../data/faq";
 
 // Komponen untuk satu item FAQ
 const FaqItem = ({ item }) => {
@@ -16,19 +16,19 @@ const FaqItem = ({ item }) => {
   useEffect(() => {
     // Animasi kontainer jawaban
     gsap.to(answerRef.current, {
-      height: isOpen ? 'auto' : 0,
+      height: isOpen ? "auto" : 0,
       opacity: isOpen ? 1 : 0,
-      paddingTop: isOpen ? '1.75rem' : 0,
-      paddingBottom: isOpen ? '1rem' : 0,
+      paddingTop: isOpen ? "1.75rem" : 0,
+      paddingBottom: isOpen ? "1rem" : 0,
       duration: 0.4,
-      ease: 'power1.out', // Menambahkan ease untuk perlambatan di akhir
+      ease: "power1.out",
     });
 
     // Animasi rotasi ikon
     gsap.to(iconRef.current, {
       rotation: isOpen ? 45 : 0,
       duration: 0.3,
-      ease: 'power1.out', // Menambahkan ease agar konsisten
+      ease: "power1.out",
     });
   }, [isOpen]);
 
@@ -39,7 +39,7 @@ const FaqItem = ({ item }) => {
         onClick={() => setIsOpen(!isOpen)}
         className="flex w-full items-center justify-between p-4 text-left bg-white text-black font-bold text-sm rounded-xl shadow-lg relative z-10"
       >
-        <span>{item.question}</span>
+        <span className="text-lg">{item.question}</span>
         <Plus ref={iconRef} className="h-6 w-6 flex-shrink-0" />
       </button>
 
@@ -49,11 +49,11 @@ const FaqItem = ({ item }) => {
         className="bg-white text-black rounded-xl shadow-lg relative -mt-3 z-0 overflow-hidden"
         style={{ height: 0, opacity: 0 }} // Kondisi awal
       >
-        <div className="px-4 text-sm text-zinc-700 space-y-3">
-          {item.answer.map((paragraph, index) => (
-            <p key={index}>{paragraph}</p>
-          ))}
-        </div>
+        {/* Menggunakan dangerouslySetInnerHTML untuk merender HTML */}
+        <div
+          className="px-4 text-base text-zinc-700 space-y-3"
+          dangerouslySetInnerHTML={{ __html: item.answer }}
+        />
       </div>
     </div>
   );

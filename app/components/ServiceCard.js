@@ -1,11 +1,12 @@
 // app/components/ServiceCard.jsx
-'use client';
+"use client";
 
-import { useState } from 'react';
-import Image from 'next/image';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
-export const ServiceCard = ({ title, images }) => {
+export const ServiceCard = ({ title, images, slug }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const itemsToShow = 3;
@@ -20,16 +21,30 @@ export const ServiceCard = ({ title, images }) => {
     setCurrentIndex((prev) => Math.min(prev + 1, maxIndex));
   };
 
+  // Cek apakah ini kartu garansi
+  const isWarrantyCard = title.includes("GARANSI");
+
   return (
     <div className="space-y-3">
-      <div className="flex items-start justify-between gap-4">
-        <h4 className="text-base font-black">{title}</h4>
-        <a
-          href="#"
-          className="flex-shrink-0 rounded-full border border-red-600 bg-gradient-to-br from-[#484149] via-[#333238] to-[#1F1D20] px-4 py-1.5 text-xs font-bold text-white shadow-md transition-transform hover:scale-105"
+      <div
+        className={`flex items-start gap-4 ${
+          isWarrantyCard ? "justify-center" : "justify-between"
+        }`}
+      >
+        <h4
+          className={`font-black ${isWarrantyCard ? "text-2xl" : "text-base"}`}
         >
-          {title.includes('GARANSI') ? 'SELENGKAPNYA' : 'AMBIL PROMO'}
-        </a>
+          {title}
+        </h4>
+        {/* Tombol hanya akan muncul jika bukan kartu garansi */}
+        {!isWarrantyCard && slug && (
+          <Link
+            href={`/promo/${slug}`}
+            className="flex-shrink-0 rounded-full border border-red-600 bg-gradient-to-br from-[#484149] via-[#333238] to-[#1F1D20] px-4 py-1.5 text-xs font-bold text-white shadow-md transition-transform hover:scale-105"
+          >
+            AMBIL PROMO
+          </Link>
+        )}
       </div>
 
       <div className="relative">
@@ -50,9 +65,9 @@ export const ServiceCard = ({ title, images }) => {
                   <Image
                     src={src}
                     alt={`${title} image ${index + 1}`}
-                    width={300} // Diubah ke nilai persegi
-                    height={300} // Diubah ke nilai persegi
-                    className="w-full h-auto object-cover aspect-square" // Ditambahkan aspect-square
+                    width={300}
+                    height={300}
+                    className="w-full h-auto object-cover aspect-square"
                   />
                 </div>
               </div>
