@@ -19,32 +19,32 @@ export const promoData = [
         {
           image: '/image/promo/ac3.webp',
           description:
-            '<b>GRATIS INSPEKSI AC MOBIL DI 20 TITIK (ALL PAKET)</b><br/>Pengecekan menyeluruh pada 20 titik vital sistem AC mobil Anda untuk memastikan semua komponen berfungsi dengan baik. Berlaku untuk semua paket servis.',
+            '<b>Gratis Inspeksi AC Mobil 20 Titik</b> untuk memastikan sistem AC mobil Anda bekerja optimal! Tim teknisi kami akan memeriksa secara menyeluruh 20 komponen penting, mulai dari tekanan freon, filter kabin, hingga kondisi kompresor dan kipas pendingin dan komponen penting yang lainnya. Cegah kerusakan lebih lanjut dan nikmati udara sejuk selama berkendara, tanpa biaya!',
         },
         {
           image: '/image/promo/ac4.webp',
           description:
-            '<b>GRATIS GENERAL CHECK UP KAKI-KAKI 25 TITIK (ALL PAKET)</b><br/>Setiap servis AC, dapatkan gratis pengecekan 25 titik pada bagian kaki-kaki mobil untuk memastikan keamanan dan kenyamanan berkendara.',
+            'Layanan <b>Gratis General Check-Up Kaki-Kaki Mobil 25 Titik!</b> Pemeriksaan menyeluruh mencakup kondisi shock absorber, tie rod, ball joint, bushing, dan komponen penting lainnya. Pastikan kenyamanan dan keamanan berkendara Anda dengan deteksi dini masalah pada sistem suspensi — tanpa biaya pemeriksaan!',
         },
         {
           image: '/image/promo/ac5.webp',
           description:
-            '<b>GRATIS INSPEKSI KARAT KOLONG MOBIL (ALL PAKET)</b><br/>Kami akan memeriksa bagian kolong mobil Anda dari potensi karat yang bisa merusak struktur kendaraan. Berlaku untuk semua paket servis AC.',
+            'Layanan <b>Gratis Inspeksi Karat Kolong Mobil</b> untuk menjaga ketahanan dan keamanan kendaraan Anda! Pemeriksaan menyeluruh dilakukan pada bagian bawah mobil seperti sasis, knalpot, dan area rawan karat lainnya. Deteksi dini potensi korosi sebelum merusak komponen penting — tanpa biaya!',
         },
         {
           image: '/image/promo/ac6.webp',
           description:
-            '<b>GRATIS INSPEKSI TUNE UP DI 65 TITIK (SELAIN PROMO PAKET 97 RIBU)</b><br/>Dapatkan pengecekan performa mesin di 65 titik secara gratis setiap kali Anda servis AC (di luar paket 97 ribu).',
+            '<b>Gratis General Check-Up di 65 Titik</b> untuk memastikan kondisi mobil Anda dalam performa terbaik! Pemeriksaan menyeluruh mencakup sistem mesin, rem, suspensi, kelistrikan, fluida, hingga bagian bawah kendaraan. Layanan ini membantu mendeteksi potensi masalah lebih awal, meningkatkan keamanan, dan kenyamanan berkendara — tanpa biaya pemeriksaan!',
         },
         {
           image: '/image/promo/ac7.webp',
           description:
-            '<b>GRATIS VIP MEMBER CARD (ALL PAKET)</b><br/>Jadilah member VIP kami dan nikmati berbagai keuntungan eksklusif. Dapatkan kartunya gratis untuk setiap pengambilan paket servis AC.',
+            'Gratis <b>VIP Member Card dengan 7 Benefit</b> akan didapatkan bagi customer yang servis di atas transaksi 2 Juta Rupiah. 7 benefit tersebut akan dijelaskan secara langsung oleh customer service kami.',
         },
         {
           image: '/image/promo/ac8.webp',
           description:
-            '<b>GRATIS NANO BURN HEADLAMP / GLASS TREATMENT (SELAIN PROMO PAKET 97 RIBU)</b><br/>Pilih salah satu: kembalikan kejernihan lampu depan mobil Anda atau berikan lapisan pelindung pada kaca dengan glass treatment. Gratis untuk servis AC (di luar paket 97 ribu).',
+            '<b>Nano Burn Headlamp</b> adalah layanan pembersihan dan restorasi kaca lampu depan menggunakan teknologi nano terbaru. Proses ini menghilangkan kusam, jamur, dan kekuningan pada headlamp, sehingga kembali bening seperti baru. Meningkatkan pencahayaan saat berkendara di malam hari dan membuat tampilan mobil lebih elegan. Aman, cepat, dan hasil tahan lama!<br/><br/><b>Glass Treatment</b> adalah layanan pelapisan kaca mobil dengan teknologi khusus yang menciptakan efek daun talas. Air hujan, debu, dan kotoran tidak mudah menempel, sehingga visibilitas tetap jernih saat berkendara. Memberikan perlindungan ekstra terhadap goresan ringan dan memudahkan proses pembersihan kaca. Ideal untuk keamanan dan kenyamanan, terutama di musim hujan!<br/><br/><b>CATATAN:</b> Promo ini dipilih salah satu sesuai kebutuhan mobil Anda.',
         },
         {
           image: '/image/promo/ac9.webp',
@@ -59,42 +59,42 @@ export const promoData = [
         {
           image: '/image/promo/ac11.webp',
           description:
-            '<b>GRATIS RUBBERIZED UNDERCOAT (SELAIN PROMO PAKET 97 RIBU)</b><br/>Dapatkan lapisan pelindung anti karat berbahan karet untuk kolong mobil Anda secara gratis. Berlaku untuk servis AC (di luar paket 97 ribu).',
+            '<b>Rubberized Undercoat</b> adalah pelapisan anti-karat pada bagian kolong mobil, khususnya pada bagian inner fender menggunakan bahan karet khusus yang tahan air dan tahan benturan. Layanan ini melindungi sasis dan komponen bawah mobil dari karat, kerikil, dan cipratan air, serta membantu meredam suara jalan. Solusi ideal untuk memperpanjang usia kendaraan dan menjaga performa tetap optimal!',
         },
         {
           image: '/image/promo/ac12.webp',
           description:
-            '<b>GRATIS VOUCHER DISCOUNT 30% PAKET ANTI KARAT (ALL PAKET)</b><br/>Nikmati potongan harga 30% untuk layanan anti karat kami di kunjungan berikutnya. Voucher gratis untuk setiap servis AC.',
+            '<b>Gratis Voucher Diskon 30% Paket Anti Karat.</b> Lindungi investasi Anda dengan voucher diskon 30% untuk paket anti karat. Mencegah karat dan keropos pada bagian kolong mobil secara efektif.',
         },
         {
           image: '/image/promo/ac13.webp',
           description:
-            '<b>GRATIS VOUCHER DISCOUNT 20% SENTINEL COFFEE & BISTRO (ALL PAKET)</b><br/>Sambil menunggu mobil diservis, nikmati kopi dan makanan di Sentinel Coffee & Bistro dengan diskon 20%.',
+            'Untuk setiap customer yang melakukan service & bertransaksi di TJM Auto Care, akan mendapatkan <b>Voucher Diskon 20% Sentinel Coffee & Bistro</b>. Voucher ini hanya bisa digunakan untuk customer yang tinggal berada dalam jangkauan terdekat dengan outlet Sentinel Coffee & Bistro yang berada di Kelapa Gading, Jakarta Utara.',
         },
         {
           image: '/image/promo/ac14.webp',
           description:
-            '<b>GRATIS VOUCHER DISCOUNT 50% NANO CERAMIC COATING (ALL PAKET)</b><br/>Dapatkan voucher diskon 50% untuk layanan nano ceramic coating agar cat mobil Anda terlindungi dan selalu berkilau.',
+            '<b>Gratis Voucher Diskon 50% untuk Nano Ceramic Coating!</b> Lindungi cat mobil Anda dengan teknologi pelapisan nano yang tahan gores, anti air, dan menjaga kilau lebih lama. Dengan voucher ini, nikmati perlindungan maksimal untuk tampilan mobil yang selalu tampak baru — hemat setengah harga! Bisa di-claim setelah service.',
         },
         {
           image: '/image/promo/ac15.webp',
           description:
-            '<b>GRATIS VOUCHER DETAILING INTERIOR / EXTERIOR (SELAIN PROMO PAKET 97 RIBU)</b><br/>Mobil bersih luar dalam! Dapatkan voucher gratis untuk layanan detailing interior atau eksterior. Berlaku untuk servis AC (di luar paket 97 ribu).',
+            '<b>Gratis Voucher Interior dan Eksterior Detailing</b> untuk membuat mobil Anda kembali kinclong dari dalam dan luar! Layanan detailing ini membersihkan secara menyeluruh, menghilangkan noda, debu, dan kotoran, sekaligus merawat permukaan cat dan interior. Kesempatan sempurna untuk menjaga kenyamanan dan tampilan mobil. Bisa di-claim setelah service.',
         },
         {
           image: '/image/promo/ac16.webp',
           description:
-            '<b>GRATIS VOUCHER DISCOUNT 30% ENGINE DETAILING (KHUSUS TRANSAKSI DI ATAS 2 JUTA)</b><br/>Untuk transaksi di atas 2 juta, kami berikan voucher diskon 30% untuk membersihkan dan merawat ruang mesin mobil Anda.',
+            '<b>Gratis Voucher Engine Detailing</b> untuk perawatan mesin mobil secara profesional! Layanan detailing mesin membersihkan kotoran, oli tumpah, dan debu membandel, sehingga mesin terlihat bersih dan terawat. Voucher ini memberikan kesempatan untuk menjaga performa dan penampilan mesin. Bisa di-claim setelah service.',
         },
         {
           image: '/image/promo/ac17.webp',
           description:
-            '<b>GRATIS WHEEL DRESSING (ALL PAKET)</b><br/>Velg mobil Anda akan kami buat berkilau seperti baru dengan layanan wheel dressing gratis dari kami.',
+            'Layanan <b>Gratis Wheel Dressing</b> untuk membuat velg mobil Anda tampak kinclong dan terawat! Produk khusus ini membersihkan sekaligus melindungi permukaan velg dari debu rem, kotoran, dan noda. Hasilnya velg lebih mengilap, tahan lama, dan memberikan tampilan mobil yang lebih menarik — tanpa biaya tambahan!',
         },
         {
           image: '/image/promo/ac18.webp',
           description:
-            '<b>GRATIS WIPER FLUID / AIR WIPER (ALL PAKET)</b><br/>Pastikan visibilitas Anda selalu jelas saat hujan dengan cairan wiper gratis dari kami.',
+            '<b>Gratis Wiper Fluid</b> untuk memastikan pandangan tetap jernih saat berkendara! Cairan pembersih khusus ini membantu menghilangkan debu, kotoran, dan noda pada kaca depan secara efektif. Ideal untuk menjaga visibilitas, terutama saat hujan atau cuaca berdebu — gratis.',
         },
         {
           image: '/image/promo/ac19.webp',
@@ -113,7 +113,7 @@ export const promoData = [
         {
           image: '/image/promo/detailing1.webp',
           description:
-            'FREE ANTAR JEMPUT MOBIL, SEBELUM DAN SETELAH PERAWATAN MOBIL ANDA',
+            'Gratis antar jemput mobil sebelum dan sesudah perawatan mobil Anda.',
         },
         {
           image: '/image/promo/detailing2.webp',
@@ -123,32 +123,32 @@ export const promoData = [
         {
           image: '/image/promo/detailing3.webp',
           description:
-            'layanan Gratis General Check-Up Kaki-Kaki Mobil 25 Titik! Pemeriksaan menyeluruh mencakup kondisi shock absorber, tie rod, ball joint, bushing, dan komponen penting lainnya. Pastikan kenyamanan dan keamanan berkendara Anda dengan deteksi dini masalah pada sistem suspensi — tanpa biaya pemeriksaan!',
+            'Layanan Gratis General Check-Up Kaki-Kaki Mobil 25 Titik! Pemeriksaan menyeluruh mencakup kondisi shock absorber, tie rod, ball joint, bushing, dan komponen penting lainnya. Pastikan kenyamanan dan keamanan berkendara Anda dengan deteksi dini masalah pada sistem suspensi — tanpa biaya pemeriksaan!',
         },
         {
           image: '/image/promo/detailing4.webp',
           description:
-            'layanan Gratis Inspeksi Karat Kolong Mobil untuk menjaga ketahanan dan keamanan kendaraan Anda! Pemeriksaan menyeluruh dilakukan pada bagian bawah mobil seperti sasis, knalpot, dan area rawan karat lainnya. Deteksi dini potensi korosi sebelum merusak komponen penting — tanpa biaya!',
+            'Layanan Gratis Inspeksi Karat Kolong Mobil untuk menjaga ketahanan dan keamanan kendaraan Anda! Pemeriksaan menyeluruh dilakukan pada bagian bawah mobil seperti sasis, knalpot, dan area rawan karat lainnya. Deteksi dini potensi korosi sebelum merusak komponen penting — tanpa biaya!',
         },
         {
           image: '/image/promo/detailing5.webp',
           description:
-            'PROSES DISINFECTANT DAN PENGASAPAN UNTUK MEMBUNUH VIRUS DAN BAKTERI DI DALAM MOBIL',
+            'Proses disinfektan dan pengasapan untuk membunuh virus dan bakteri di dalam kabin mobil.',
         },
         {
           image: '/image/promo/detailing6.webp',
           description:
-            'SETIAP PENGAMBILAN ALL PAKET DETAILING ANDA AKAN MENDAPATKAN FREE INSPEKSI KENDARAAN DI TJM AUTO CARE.',
+            'Setiap pengambilan paket detailing, Anda akan mendapatkan gratis inspeksi kendaraan di TJM Auto Care.',
         },
         {
           image: '/image/promo/detailing7.webp',
           description:
-            'ANDA AKAN MENDAPATKAN GRATIS LOGAM MULIA SETIAP MELAKUKAN PERAWATAN PENAMPILAN MOBIL ANDA DENGAN SYARAT TRANSAKSI KHUSUS DI ATAS 2 JUTA RUPIAH',
+            'Dapatkan gratis Logam Mulia setiap melakukan perawatan penampilan mobil Anda dengan syarat transaksi di atas 2 Juta Rupiah.',
         },
         {
           image: '/image/promo/detailing8.webp',
           description:
-            'GRATIS VIP MEMBER CARD DENGAN 7 BENEFIT AKAN DI DAPATKAN BAGI CUSTOMER YANG SERVICE DI ATAS TRANSAKSI 2 JUTA RUPIAH, 7 BENEFIT TERSEBUT AKAN DI JELASKAN SECARA LANGSUNG OLEH CUSTOMER SERVICE KAMI',
+            'Gratis VIP Member Card dengan 7 benefit akan didapatkan bagi customer yang servis dengan transaksi di atas 2 Juta Rupiah. 7 benefit tersebut akan dijelaskan secara langsung oleh customer service kami.',
         },
         {
           image: '/image/promo/detailing9.webp',
@@ -163,12 +163,12 @@ export const promoData = [
         {
           image: '/image/promo/detailing11.webp',
           description:
-            'Rubberized Undercoat adalah pelapisan anti-karat pada bagian kolong mobil  Khususnya pada bagian inner fender menggunakan bahan karet khusus yang tahan air dan tahan benturan. Layanan ini melindungi sasis dan komponen bawah mobil dari karat, kerikil, dan cipratan air, serta membantu meredam suara jalan. Solusi ideal untuk memperpanjang usia kendaraan dan menjaga performa tetap optimal!',
+            'Rubberized Undercoat adalah pelapisan anti-karat pada bagian kolong mobil khususnya pada bagian inner fender menggunakan bahan karet khusus yang tahan air dan tahan benturan. Layanan ini melindungi sasis dan komponen bawah mobil dari karat, kerikil, dan cipratan air, serta membantu meredam suara jalan. Solusi ideal untuk memperpanjang usia kendaraan dan menjaga performa tetap optimal!',
         },
         {
           image: '/image/promo/detailing12.webp',
           description:
-            'layanan Gratis Wheel Dressing untuk membuat velg mobil Anda tampak kinclong dan terawat! Produk khusus ini membersihkan sekaligus melindungi permukaan velg dari debu rem, kotoran, dan noda. Hasilnya velg lebih mengilap, tahan lama, dan memberikan tampilan mobil yang lebih menarik — tanpa biaya tambahan!',
+            'Layanan Gratis Wheel Dressing untuk membuat velg mobil Anda tampak kinclong dan terawat! Produk khusus ini membersihkan sekaligus melindungi permukaan velg dari debu rem, kotoran, dan noda. Hasilnya velg lebih mengilap, tahan lama, dan memberikan tampilan mobil yang lebih menarik — tanpa biaya tambahan!',
         },
       ],
     },
@@ -182,12 +182,12 @@ export const promoData = [
         {
           image: '/image/promo/express1.webp',
           description:
-            'TJM EXPRESS JUGA MENJUAL SEMUA JENIS BAN PADA KENDARAAN MOBIL ANDA, DAN SETIAP CUSTOMER YANG MENGAMBIL PAKET DI TJM EXPRESS, CUSTOMER MENDAPATKAN FREE DISCOUNT PEMBELIAN BAN HINGGA 30%',
+            'TJM Express juga menjual semua jenis ban untuk mobil Anda. Setiap pengambilan paket di TJM Express, Anda akan mendapatkan diskon pembelian ban hingga 30%.',
         },
         {
           image: '/image/promo/express2.webp',
           description:
-            'SETIAP PENGAMBILAN ALL PAKET TJM EXPRESS, ANDA AKAN MENDAPATKAN DISCOUNT PAKET TERBESAR HINGGA 50%',
+            'Setiap pengambilan paket apapun di TJM Express, Anda akan mendapatkan diskon paket terbesar hingga 50%.',
         },
         {
           image: '/image/promo/express3.webp',
@@ -212,24 +212,28 @@ export const promoData = [
         {
           image: '/image/promo/express7.webp',
           description:
-            'CUSTOMER MENDAPATKAN FREE E BOOK DIGITAL DI SENTINEL LAWFIRM. PADA SEMUA PAKET TJM EXPRESS',
+            'Dapatkan E-Book digital gratis dari Sentinel Lawfirm untuk setiap pengambilan paket di TJM Express.',
         },
         {
           image: '/image/promo/express8.webp',
           description:
-            'Proses disinfectant dan pengasapan untuk membunuh virus dan bakteri di dalam mobil.',
+            'Proses disinfektan dan pengasapan untuk membunuh virus dan bakteri di dalam mobil.',
         },
         {
           image: '/image/promo/express9.webp',
           description:
-            'CUSTOMER DAPAT MELAKUKAN FREE KONSULTASI DIGITAL DI SENTINEL LAWFIRM. PADA SEMUA PAKET TJM EXPRESS',
+            'Dapatkan gratis konsultasi digital di Sentinel Lawfirm untuk semua paket TJM Express.',
         },
         {
           image: '/image/promo/express10.webp',
           description:
-            'BAGI CUSTOMER YANG MEMILIKI PERMASALAHAN HUKUM, CUSTOMER DAPAT MELAKUKAN FREE KONSULTASI HUKUM DI SENTINEL LAWFIRM. PADA SEMUA PAKET TJM EXPRESS',
+            'Bagi Anda yang memiliki permasalahan hukum, dapatkan gratis konsultasi hukum di Sentinel Lawfirm pada semua paket TJM Express.',
         },
-        { image: '/image/promo/express11.webp' },
+        {
+          image: '/image/promo/express11.webp',
+          description:
+            '<b>Gratis Nitrogen Ban Mobil 4 Roda.</b> Dapatkan pengisian Nitrogen gratis untuk ke-4 ban mobil Anda. Nitrogen menjaga tekanan ban lebih stabil, memperpanjang usia ban, dan meningkatkan efisiensi bahan bakar.',
+        },
         {
           image: '/image/promo/express12.webp',
           description:
@@ -238,11 +242,12 @@ export const promoData = [
         {
           image: '/image/promo/express13.webp',
           description:
-            'GRATIS UNTUK SEMUA KENDARAAN MOBIL ANDA, SETELAH MELAKUKAN PENGECEKAN PADA BAN 4 RODA YANG SUDAH SESUAI STANDAR NYA',
+            'Gratis pemasangan untuk semua jenis mobil, setelah pengecekan 4 roda sesuai standar.',
         },
         {
           image: '/image/promo/express14.webp',
-          description: 'GUNA MERATAKAN PEMAKAIAN 4 BAN DI MOBIL ANDA',
+          description:
+            'Gratis rotasi ban untuk meratakan pemakaian pada ke-4 ban mobil Anda.',
         },
         {
           image: '/image/promo/express15.webp',
@@ -251,12 +256,13 @@ export const promoData = [
         },
         {
           image: '/image/promo/express16.webp',
-          description: 'PROMO GRATIS TUTUP PENTIL UNTUK SELURUH JENIS MOBIL',
+          description:
+            'Dapatkan gratis tutup pentil untuk seluruh jenis mobil.',
         },
         {
           image: '/image/promo/express17.webp',
           description:
-            'SETIAP PENGAMBILAN PAKET DI TJM EXPRESS ANADA AKAN MENDAPATKAN VOUCHER DISCOUNT PAKET SENILAI 500.000+',
+            'Setiap pengambilan paket di TJM Express, Anda akan mendapatkan voucher diskon paket senilai 500.000+.',
         },
         {
           image: '/image/promo/express18.webp',
@@ -268,7 +274,11 @@ export const promoData = [
           description:
             '<b>Gratis Voucher Diskon 30% untuk Nano Ceramic Coating!</b> Lindungi cat mobil Anda dengan teknologi pelapisan nano yang tahan gores, anti air, dan menjaga kilau lebih lama. Dengan voucher ini, nikmati perlindungan maksimal untuk tampilan mobil yang selalu tampak baru — hemat setengah harga! Bisa di-claim setelah service.',
         },
-        { image: '/image/promo/express20.webp' },
+        {
+          image: '/image/promo/express20.webp',
+          description:
+            '<b>Gratis Voucher Diskon 10% Servis Kaki-kaki Rekondisi.</b> Nikmati voucher diskon spesial 10% untuk semua layanan rekondisi kaki-kaki. Kembalikan kenyamanan dan keamanan suspensi mobil Anda dengan harga lebih hemat.',
+        },
         {
           image: '/image/promo/express21.webp',
           description:
@@ -291,11 +301,12 @@ export const promoData = [
         {
           image: '/image/promo/undercarriage1.webp',
           description:
-            'DISCOUNT TERBESAR LAYANAN ANTI KARAT YANG BISA ANDA DAPATKAN HANYA DI TJM ANTI RUST PROTECTION',
+            'Dapatkan diskon terbesar untuk layanan anti karat hanya di TJM Anti Rust Protection.',
         },
         {
           image: '/image/promo/undercarriage2.webp',
-          description: 'BERLAKU UNTUK SEMUA PAKET TJM ANTI RUST PROTECTION',
+          description:
+            'Promo ini berlaku untuk semua paket TJM Anti Rust Protection.',
         },
         {
           image: '/image/promo/undercarriage3.webp',
@@ -305,37 +316,37 @@ export const promoData = [
         {
           image: '/image/promo/undercarriage4.webp',
           description:
-            'layanan Gratis General Check-Up Kaki-Kaki Mobil 25 Titik! Pemeriksaan menyeluruh mencakup kondisi shock absorber, tie rod, ball joint, bushing, dan komponen penting lainnya. Pastikan kenyamanan dan keamanan berkendara Anda dengan deteksi dini masalah pada sistem suspensi — tanpa biaya pemeriksaan!',
+            'Layanan Gratis General Check-Up Kaki-Kaki Mobil 25 Titik! Pemeriksaan menyeluruh mencakup kondisi shock absorber, tie rod, ball joint, bushing, dan komponen penting lainnya. Pastikan kenyamanan dan keamanan berkendara Anda dengan deteksi dini masalah pada sistem suspensi — tanpa biaya pemeriksaan!',
         },
         {
           image: '/image/promo/undercarriage5.webp',
           description:
-            'PEMBERSIHAN EKSTERIOR DAN INTERIOR MOBIL ANDA MENGGUNAKAN UAP PANAS GUNA MEMBERSIHKAN BAKTERI DAN MEMBERSIHKAN SELA SELA  OBIL YANG SULIT TERJANGKAU',
+            'Pembersihan eksterior dan interior mobil Anda menggunakan uap panas untuk membersihkan bakteri dan menjangkau sela-sela mobil yang sulit.',
         },
         {
           image: '/image/promo/undercarriage6.webp',
           description:
-            'PERLINDUNGAN ANTI KARAT PADA BAGIAN DALAM PINTU MOBIL ANDA DAN PROMO INI TIDAK BERLAKU PADA PAKET SUPER HEMAT',
+            'Dapatkan perlindungan anti karat pada bagian dalam pintu mobil Anda. Promo ini tidak berlaku untuk Paket Super Hemat.',
         },
         {
           image: '/image/promo/undercarriage7.webp',
           description:
-            'PROSES DISINFECTANT DAN PENGASAPAN UNTUK MEMBUNUH VIRUS DAN BAKTERI DI DALAM MOBIL',
+            'Proses disinfektan dan pengasapan untuk membunuh virus dan bakteri di dalam mobil.',
         },
         {
           image: '/image/promo/undercarriage8.webp',
           description:
-            'AFTER PENGERJAAN ANTI KARAT ANDA AKAN MENDAPATKAN FREE GURAH MESIN / CATALYTIC CLEANER UNTUK PERFORMA MESIN ANDA',
+            'Setelah pengerjaan anti karat, Anda akan mendapatkan gratis Gurah Mesin / Catalytic Cleaner untuk meningkatkan performa mesin.',
         },
         {
           image: '/image/promo/undercarriage9.webp',
           description:
-            'PENGECEKAN AREA KOLONG BAWAH MOBIL ANDA AFTER PENGERJAAN ANT KARAT, GUNA MEMASTIKAN KOLONG MOBIL ANDA TETAP TERJAGA DAN AMAN',
+            'Pengecekan area kolong mobil setelah pengerjaan anti karat, guna memastikan kolong mobil Anda tetap terjaga dan aman.',
         },
         {
           image: '/image/promo/undercarriage10.webp',
           description:
-            'FREE SERTIFIKAT UNTUK KENDARAAN ANDA AFTER SELESAI PENGERJAANN ANTI KARAT',
+            'Dapatkan sertifikat gratis untuk kendaraan Anda setelah pengerjaan anti karat selesai.',
         },
         {
           image: '/image/promo/undercarriage11.webp',
@@ -362,7 +373,11 @@ export const promoData = [
           description:
             '<b>Gratis Voucher Diskon 30% untuk Nano Ceramic Coating!</b> Lindungi cat mobil Anda dengan teknologi pelapisan nano yang tahan gores, anti air, dan menjaga kilau lebih lama. Dengan voucher ini, nikmati perlindungan maksimal untuk tampilan mobil yang selalu tampak baru — hemat setengah harga! Bisa di-claim setelah service.',
         },
-        { image: '/image/promo/undercarriage16.webp' },
+        {
+          image: '/image/promo/undercarriage16.webp',
+          description:
+            '<b>Gratis Voucher Diskon 10% Servis Kaki-kaki Rekondisi.</b> Nikmati voucher diskon spesial 10% untuk semua layanan rekondisi kaki-kaki. Kembalikan kenyamanan dan keamanan suspensi mobil Anda dengan harga lebih hemat.',
+        },
         {
           image: '/image/promo/undercarriage17.webp',
           description:
@@ -376,7 +391,7 @@ export const promoData = [
         {
           image: '/image/promo/undercarriage19.webp',
           description:
-            'CUSTOMER BEBAS MEMBAWA MOBIL BERUKURAN KECIL SAMPAI UKURAN BESAR, TANPA ADA KENAIKAN DAN TURUNAN HARGA PADA JENIS DAN UKURAN MOBIL. HARGA FLAT JIKA MENGAMBIL PAKET ANTI KARAT PADA TJM ANTI RUST PROTECTION',
+            'Anda bebas membawa mobil ukuran kecil hingga besar tanpa ada perubahan harga. Harga flat untuk semua jenis dan ukuran mobil jika mengambil paket anti karat di TJM Anti Rust Protection.',
         },
       ],
     },
@@ -410,7 +425,7 @@ export const promoData = [
         {
           image: '/image/promo/autocare5.webp',
           description:
-            'Proses disinfectant dan pengasapan untuk membunuh virus dan bakteri di dalam mobil.',
+            'Proses disinfektan dan pengasapan untuk membunuh virus dan bakteri di dalam mobil.',
         },
         {
           image: '/image/promo/autocare6.webp',
@@ -447,7 +462,11 @@ export const promoData = [
           description:
             '<b>Rubberized Undercoat</b> adalah pelapisan anti-karat pada bagian kolong mobil, khususnya pada bagian inner fender menggunakan bahan karet khusus yang tahan air dan tahan benturan. Layanan ini melindungi sasis dan komponen bawah mobil dari karat, kerikil, dan cipratan air, serta membantu meredam suara jalan. Solusi ideal untuk memperpanjang usia kendaraan dan menjaga performa tetap optimal!',
         },
-        { image: '/image/promo/autocare13.webp' },
+        {
+          image: '/image/promo/autocare13.webp',
+          description:
+            '<b>Gratis Voucher Diskon 30% Paket Anti Karat.</b> Lindungi investasi Anda dengan voucher diskon 30% untuk paket anti karat. Mencegah karat dan keropos pada bagian kolong mobil secara efektif.',
+        },
         {
           image: '/image/promo/autocare14.webp',
           description:

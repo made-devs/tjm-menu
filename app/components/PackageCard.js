@@ -1,7 +1,7 @@
 // app/components/PackageCard.jsx
 
-import Image from "next/image";
-import Link from "next/link"; // Import Link
+import Image from 'next/image';
+import Link from 'next/link'; // Import Link
 
 export const PackageCard = ({ packageData, categorySlug }) => {
   const { title, image, subtitle, normalPrice, discountPrice, detailSlug } =
@@ -9,29 +9,29 @@ export const PackageCard = ({ packageData, categorySlug }) => {
 
   // Fungsi render harga (tetap sama)
   const renderPrice = (priceString) => {
-    if (priceString.startsWith("START FROM")) {
-      const parts = priceString.split(" ");
+    if (priceString.startsWith('START FROM')) {
+      const parts = priceString.split(' ');
       const value = parts.pop();
       const currency = parts.pop();
-      const prefix = parts.join(" ");
+      const prefix = parts.join(' ');
       return (
         <div>
-          {" "}
-          <span className="text-xs">{prefix}</span>{" "}
+          {' '}
+          <span className="text-xs">{prefix}</span>{' '}
           <div className="flex items-baseline justify-center gap-1">
-            {" "}
-            <span className="text-sm font-semibold">{currency}</span>{" "}
-            <span className="text-2xl font-black">{value}</span>{" "}
-          </div>{" "}
+            {' '}
+            <span className="text-sm font-semibold">{currency}</span>{' '}
+            <span className="text-2xl font-black">{value}</span>{' '}
+          </div>{' '}
         </div>
       );
     }
-    const [currency, value] = priceString.split(" ");
+    const [currency, value] = priceString.split(' ');
     return (
       <div className="flex items-baseline justify-center gap-1">
-        {" "}
-        <span className="text-sm font-semibold">{currency}</span>{" "}
-        <span className="text-2xl font-black">{value}</span>{" "}
+        {' '}
+        <span className="text-sm font-semibold">{currency}</span>{' '}
+        <span className="text-2xl font-black">{value}</span>{' '}
       </div>
     );
   };
@@ -48,16 +48,16 @@ export const PackageCard = ({ packageData, categorySlug }) => {
         />
       </div>
       <div className="p-3 w-full flex flex-col justify-between flex-grow">
-        <div>
+        <div className="min-h-[6rem]">
           <h3 className="font-bold text-sm leading-tight mb-2">{subtitle}</h3>
           {normalPrice && (
-            <p className="text-zinc-400 line-through whitespace-nowrap text-[11px]">
+            <p className="text-zinc-400 line-through text-[11px]">
               HARGA NORMAL {normalPrice}
             </p>
           )}
           <div className="text-red-500 mt-1">
             <p className="text-xs font-semibold">
-              {discountPrice.includes("START FROM") ? "" : "HARGA DISCOUNT"}
+              {discountPrice.includes('START FROM') ? '' : 'HARGA DISCOUNT'}
             </p>
             {renderPrice(discountPrice)}
           </div>
