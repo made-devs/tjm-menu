@@ -32,7 +32,7 @@ const menuData = [
     text: 'PROMO BULAN INI',
     subMenu: [
       {
-        text: '30 PROMO GRATIS SENILAI 5 JT',
+        text: '30 PROMO GRATIS SENILAI 7 JT',
         href: '/promo/auto-care',
       },
       {

@@ -7,7 +7,7 @@ export const packagesData = {
       {
         title: 'PAKET KAKI-KAKI SUPER HEMAT',
         detailSlug: 'super-hemat',
-        image: 'https://i.imgur.com/U8h0NHH.jpg',
+        image: '/image/paket/kakikaki1.webp',
         description: [
           'PAKET KAKI KAKI SUPER HEMAT ADALAH PAKET PERAWATAN KAKI KAKI REKONDISI YANG MENCAKUP HAMPIR SELURUH KOMPONEN DARI SUSPENSI / KAKI KAKI KECUALI RACKSTEER, BUBUT DISC BRAKE DAN SHOCK BREAKER.',
           'PAKET KAKI KAKI INI ADALAH PAKET TERMURAH SE- INDONESIA YANG MENCAKUP BELASAN PENGERJAAN PADA MOBIL ANDA. DI PAKET INI CUSTOMER AKAN MENDAPATKAN REKONDISI KAKI KAKI DENGAN HARGA DI BAWAH 1 JUTA, DAN DI PAKET INI CUSTOMER AKAN MENDAPATKAN 21 PROMO GRATIS SENILAI 4,1 JUTA RUPIAH.',
@@ -19,7 +19,7 @@ export const packagesData = {
       {
         title: 'PAKET KAKI-KAKI KOMPLIT',
         detailSlug: 'komplit',
-        image: 'https://i.imgur.com/S52FkN9.jpg',
+        image: '/image/paket/kakikaki2.webp',
         description: [
           'PAKET KAKI KAKI KOMPLIT ADALAH PAKET PERAWATAN KAKI KAKI REKONDISI YANG MENCAKUP HAMPIR SELURUH KOMPONEN DARI SUSPENSI / KAKI KAKI KECUALI RACKSTEER, BUBUT DISC BRAKE DAN SHOCK BREAKER',
           'DI PAKET INI CUSTOMER AKAN MENDAPATKAN REKONDISI KAKI KAKI DENGAN HARGA MULAI DARI 1 JUTAAN, DAN DI PAKET INI CUSTOMER AKAN MENDAPATKAN 21 PROMO GRATIS SENILAI 4,1 JUTA RUPIAH.',
@@ -31,7 +31,7 @@ export const packagesData = {
       {
         title: 'PAKET KAKI-KAKI SUPER KOMPLIT',
         detailSlug: 'super-komplit',
-        image: 'https://i.imgur.com/3C9N4WZ.jpg',
+        image: '/image/paket/kakikaki3.webp',
         description: [
           'PAKET KAKI KAKI SUPER KOMPLIT ADALAH PAKET PERAWATAN KAKI KAKI REKONDISI YANG MENCAKUP SELURUH KOMPONEN DARI SUSPENSI / KAKI KAKI TERMASUK RACKSTEER DAN BUBUT DISC BRAKE.',
           'HANYA DENGAN 2 JUTAAN , CUSTOMER AKAN MENDAPATKAN LEBIH DARI PULUHAN PENGERJAAN KAKI KAKI DAN MENDAPATKAN 21 PROMO GRATIS SENILAI 4,1 JUTA RUPIAH.',
@@ -43,7 +43,7 @@ export const packagesData = {
       {
         title: 'PAKET KAKI-KAKI ALL IN ONE',
         detailSlug: 'all-in-one',
-        image: 'https://i.imgur.com/TMUnd3s.jpg',
+        image: '/image/paket/kakikaki4.webp',
         description: [
           'PAKET KAKI KAKI ALL IN ONE ADALAH PAKET PERAWATAN KAKI KAKI TERLENGKAP YANG MENCAKUP SELURUH KOMPONEN DARI SUSPENSI / KAKI KAKI TERMASUK RACKSTEER DAN BUBUT DISC BRAKE, SERTA AREA MESIN.',
           'HANYA DENGAN 2 JUTAAN , CUSTOMER AKAN MENDAPATKAN LEBIH DARI PULUHAN PENGERJAAN KAKI KAKI DAN MENDAPATKAN 21 PROMO GRATIS SENILAI 4,1 JUTA RUPIAH.',
@@ -205,7 +205,7 @@ export const packagesData = {
       {
         title: 'PAKET STEERING KOMPLIT',
         detailSlug: 'steering-komplit',
-        image: 'https://i.imgur.com/mg5lrH5.jpg',
+        image: '/image/paket/steering1.webp',
         description: [
           'FOKUS UTAMA PADA STEERING, MENCAKUP TUNE UP, INJECTOR CLEANING, PENGGANTIAN TEFLON BEARING, PENGECEKAN SENSOR-SENSOR, SERVICE REM, INSPEKSI CV JOINT, BALL JOINT, TIE ROD, LONG TIE ROD, SHOCKBREAKER, BEARING RODA, RACKSTEER, HINGGA REKONDISI JOINT STEER & COLUMN STEER.',
           'TOTAL ADA 20 LAYANAN DENGAN HARGA LEBIH EKONOMIS, COCOK BAGI YANG INGIN FOKUS PERBAIKAN STEERING NAMUN TETAP MENDAPAT SERVICE KAKI-KAKI DASAR.',
@@ -217,7 +217,7 @@ export const packagesData = {
       {
         title: 'PAKET COMBO KAKI-KAKI + STEERING SUPER KOMPLIT',
         detailSlug: 'steering-super-komplit',
-        image: 'https://i.imgur.com/lrsDTEp.jpg',
+        image: '/image/paket/steering2.webp',
         description: [
           'PAKET COMBO KAKI-KAKI + STEERING SUPER KOMPLIT ADALAH PAKET  DENGAN KOMBINASI TUNE UP, INJECTOR CLEANING, REKONDISI RACKSTEER, PENGGANTIAN TEFLON BEARING, REKONDISI JOINT STEER, RUBBERIZED UNDERCOAT, PENGECEKAN SENSOR-SENSOR, SERVICE REM, HINGGA INSPEKSI CV JOINT, BALL JOINT, TIE ROD, LONG TIE ROD, SHOCKBREAKER, RACKSTEER, DAN DISC BRAKE.',
           'DI PAKET INI MEMBERIKAN 22 LAYANAN KOMBINASI DENGAN FOKUS PADA INSPEKSI DAN REKONDISI KAKI-KAKI SERTA STEERING.',
@@ -229,7 +229,7 @@ export const packagesData = {
       {
         title: 'PAKET COMBO KAKI-KAKI + STEERING ULTIMATE',
         detailSlug: 'steering-ultimate',
-        image: 'https://i.imgur.com/9lLlHKd.jpg',
+        image: '/image/paket/steering3.webp',
         description: [
           'PAKET COMBO KAKI KAKI + STEERING ULTIMATE ADALAH PAKET PALING LENGKAP, MENCAKUP TUNE UP 65 KOMPONEN, INJECTOR CLEANING, PERBAIKAN LINK STABILIZER, BALL JOINT, TIE ROD, LONG TIE ROD, BEARING RODA, SENSOR-SENSOR, SHOCKBREAKER, RACKSTEER, LOWER ARM, HINGGA SERVICE AC MOBIL.',
           'TERDAPAT LEBIH DARI 27 JENIS SERVICE & REKONDISI, TERMASUK SERVICE BESAR PADA KAKI-KAKI DAN SISTEM STEERING.',
@@ -246,7 +246,7 @@ export const packagesData = {
       {
         title: 'PAKET KAKI-KAKI RACKSTEER HEMAT',
         detailSlug: 'racksteer',
-        image: 'https://i.imgur.com/2FdQE9n.jpg',
+        image: '/image/paket/racksteer.webp',
         description: [
           'PAKET KAKI-KAKI RACKSTEER HEMAT ADALAH PAKET HEMAT YANG MENCAKUP PERAWATAN RACKSTEER (REKONDISI & SETEL ULANG), BUSHING RACKSTEER CUSTOM, TUNE UP 65 KOMPONEN, INJECTOR CLEANING, PENGECEKAN IDLE ARM, LINK STABILIZER, BALL JOINT, TIE ROD, LONG TIE ROD, BEARING RODA, LOWER ARM, HINGGA SERVICE REM KOMPLIT.',
           'TERMASUK PELAPISAN ANTI KARAT (RUBBERIZED UNDERCOAT), GREASE/PELUMAS AREA KAKI-KAKI, GENERAL CHECK UP KAKI-KAKI 25 TITIK, ROTASI BAN 4 RODA, SERVICE AC MOBIL, DAN WHEEL DRESSING.',
@@ -267,7 +267,7 @@ export const packagesData = {
           {
             title: 'PAKET TUNE UP DIESEL KOMPLIT',
             detailSlug: 'diesel-komplit',
-            image: 'https://i.imgur.com/9hWynRc.jpg',
+            image: '/image/paket/diesel1.webp',
             description: [
               'PAKET TUNE UP DIESEL KOMPLIT ADALAH PAKET DASAR YANG TETAP MENYELURUH, MELIPUTI TUNE UP 65 KOMPONEN, GENERAL CHECK UP KAKI-KAKI & AC, ENGINE SCANNER, SERVICE REM, RADIATOR, GURAH EGR, INTERCOOLER, INTAKE MANIFOLD, PURGING DIESEL, STEL KLEP, SERTA FREE CETANE BOOSTER & SMOKELESS BOOSTER.',
               'PAKET INI MEMILIKI 13 LAYANAN UTAMA, LEBIH FOKUS KE PEMBERSIHAN SISTEM MESIN & EFISIENSI PEMBAKARAN.',
@@ -279,7 +279,7 @@ export const packagesData = {
           {
             title: 'PAKET TUNE UP DIESEL SUPER KOMPLIT',
             detailSlug: 'diesel-super-komplit',
-            image: 'https://i.imgur.com/FmtVLIN.jpg',
+            image: '/image/paket/diesel2.webp',
             description: [
               'PAKET TUNE UP DIESEL SUPER KOMPLIT ADALAH PAKET MENENGAH YANG MENCAKUP TUNE UP 65 KOMPONEN, GENERAL CHECK UP KAKI-KAKI & AC, CLEANING INJECTOR & KALIBRASI NOZZLE, KALIBRASI COMMON RAIL, ENGINE SCANNER, SERVICE REM, RADIATOR, FREE CETANE BOOSTER, GURAH TURBO, INTERCOOLER, INTAKE MANIFOLD, PURGING DIESEL, STEL KLEP, DAN GURAH',
               'PAKET INI MEMILIKI 15 LAYANAN DENGAN FOKUS PADA MESIN DIESEL MODERN DAN SISTEM PEMBAKARAN AGAR LEBIH EFISIEN & BERTENAGA.',
@@ -291,7 +291,7 @@ export const packagesData = {
           {
             title: 'PAKET TUNE UP DIESEL ULTIMATE',
             detailSlug: 'diesel-ultimate',
-            image: 'https://i.imgur.com/lOJp1Ou.jpg',
+            image: '/image/paket/diesel3.webp',
             description: [
               'PAKET TUNE UP DIESEL ULTIMATE ADALAH PAKET PALING LENGKAP UNTUK MOBIL DIESEL, TERMASUK TUNE UP 65 KOMPONEN, GENERAL CHECK UP KAKI-KAKI & AC, OLI MESIN PREMIUM (SHELL HX7 / BARDAHL DIESEL), FILTER OLI, TRANSFUSI DARAH MESIN, CLEANING INJECTOR & KALIBRASI NOZZLE, KALIBRASI COMMON RAIL, SERVICE REM, RADIATOR, KURAS TANGKI, FREE CETANE BOOSTER & SMOKELESS BOOSTER, ENGINE FLUSH, GURAH TURBO, INTERCOOLER, INTAKE MANIFOLD, PURGING DIESEL, STEL KLEP, HINGGA GURAH EGR.',
               'PAKET INI MEMILIKI 19 LAYANAN TOTAL, SANGAT MENYELURUH DARI MESIN, SISTEM BAHAN BAKAR, HINGGA KAKI-KAKI.',
@@ -308,7 +308,7 @@ export const packagesData = {
           {
             title: 'PAKET PASTI PUAS 1 DIESEL',
             detailSlug: 'puas1',
-            image: 'https://i.imgur.com/eFZFa1x.jpg',
+            image: '/image/paket/diesel4.webp',
             description: [
               'PAKET PASTI PUAS 1 ADALAH PAKET KOMBINASI SERVICE KAKI-KAKI KOMPLIT + TUNE UP DIESEL SUPER KOMPLIT. TERMASUK TUNE UP 65 KOMPONEN, CHECK UP KAKI-KAKI & AC, CLEANING INJECTOR + KALIBRASI COMMON RAIL, ENGINE SCANNER, SERVICE REM, RADIATOR, GURAH TURBO, INTERCOOLER, EGR, INTAKE MANIFOLD, PURGING DIESEL, STEL KLEP, FREE CETANE BOOSTER, ROTASI BAN, PLUS SERVICE KAKI-KAKI (LOWER ARM, BALL JOINT, TIE ROD, LONG TIE ROD, LINK STABILIZER, BEARING RODA, PELAPISAN ANTI KARAT, SERTA REKONDISI COLUMN STEER DAN JOINT STEER).',
               'PAKET INI MEMILIKI 22 LAYANAN DENGAN KOMBINASI CUKUP LENGKAP UNTUK PERAWATAN MESIN DIESEL & KAKI-KAKI.',
@@ -320,7 +320,7 @@ export const packagesData = {
           {
             title: 'PAKET PASTI PUAS 2 DIESEL',
             detailSlug: 'puas2',
-            image: 'https://i.imgur.com/tFwdWk9.jpg',
+            image: '/image/paket/diesel5.webp',
             description: [
               'PAKET PASTI PUAS 2 DIESEL ADALAH PAKET KOMBINASI SERVICE KAKI-KAKI KOMPLIT + TUNE UP DIESEL KOMPLIT. MENCAKUP TUNE UP 65 KOMPONEN, CHECK UP KAKI-KAKI & AC, OLI MESIN PREMIUM (SHELL HX7 / BARDAHL), TRANSFUSI DARAH MESIN + ENGINE FLUSH, CLEANING INJECTOR + KALIBRASI COMMON RAIL, SERVICE REM, RADIATOR, GURAH TURBO, INTERCOOLER, EGR, KURAS TANGKI, INTAKE MANIFOLD, PURGING DIESEL, STEL KLEP, FREE CETANE BOOSTER, PLUS PERBAIKAN KAKI-KAKI (LOWER ARM, BALL JOINT, TIE ROD, LONG TIE ROD, LINK STABILIZER, BEARING RODA, PELAPISAN ANTI KARAT, SERTA REKONDISI COLUMN STEER DAN JOINT STEER).',
               'PAKET INI MEMILIKI 23 LAYANAN TOTAL (SALAH SATU PAKET TERLENGKAP KARENA GABUNGAN PERAWATAN MESIN DIESEL + KAKI-KAKI).',
@@ -337,7 +337,7 @@ export const packagesData = {
           {
             title: 'PAKET PASTI PUAS 3 DIESEL',
             detailSlug: 'puas3',
-            image: 'https://i.imgur.com/RKh9500.jpg',
+            image: '/image/paket/diesel6.webp',
             description: [
               'PAKET COMBO KAKI KAKI + STEERING ULTIMATE ADALAH PAKET PALING LENGKAP, MENCAKUP TUNE UP 65 KOMPONEN, INJECTOR CLEANING, PERBAIKAN LINK STABILIZER, BALL JOINT, TIE ROD, LONG TIE ROD, BEARING RODA, SENSOR-SENSOR, SHOCKBREAKER, RACKSTEER, LOWER ARM, HINGGA SERVICE AC MOBIL.',
               'TERDAPAT LEBIH DARI 27 JENIS SERVICE & REKONDISI, TERMASUK SERVICE BESAR PADA KAKI-KAKI DAN SISTEM STEERING.',
@@ -349,7 +349,7 @@ export const packagesData = {
           {
             title: 'PAKET PASTI PUAS 4 DIESEL',
             detailSlug: 'puas4',
-            image: 'https://i.imgur.com/CR8FmxY.jpg',
+            image: '/image/paket/diesel7.webp',
             description: [
               'PAKET PASTI PUAS 4 DIESEL ADALAH KOMBINASI SERVICE KAKI-KAKI KOMPLIT + TUNE UP DIESEL ULTIMATE. MENCAKUP TUNE UP 65 KOMPONEN, GENERAL CHECK UP KAKI-KAKI & AC, OLI MESIN PREMIUM (SHELL HX7 / BARDAHL DIESEL), FILTER OLI, TRANSFUSI DARAH + ENGINE FLUSH, CLEANING INJECTOR + KALIBRASI NOZZLE, SERVICE KALIBRASI COMMON RAIL, SERVICE REM, RADIATOR, GURAH EGR, TURBO, INTERCOOLER, INTAKE MANIFOLD, PURGING DIESEL, STEL KLEP, FREE CETANE BOOSTER & SMOKELESS BOOSTER.',
               'ANDA JUGA MENDAPATKAN PAKET FULL DETAILING (INTERIOR & EKSTERIOR), GLASS COATING + TREATMENT, ENGINE DETAILING, NANO CERAMIC COATING 3 LAYER, WHEEL DRESSING, SERTA BACK TO BLACK PERMANENT.',
@@ -369,7 +369,7 @@ export const packagesData = {
       {
         title: 'TJM SPECIAL PACKAGE',
         detailSlug: 'special-package1',
-        image: 'https://i.imgur.com/6FooOzH.jpg',
+        image: '/image/paket/special1.webp',
         subtitle: 'TJM SPECIAL PACKAGE',
         normalPrice: '',
         discountPrice: 'START FROM IDR 500K',
@@ -377,7 +377,7 @@ export const packagesData = {
       {
         title: 'TJM SPECIAL PACKAGE',
         detailSlug: 'special-package2',
-        image: 'https://i.imgur.com/pGL5JdU.jpg',
+        image: '/image/paket/special2.webp',
         subtitle: 'TJM SPECIAL PACKAGE',
         normalPrice: '',
         discountPrice: 'START FROM IDR 375K',
@@ -390,7 +390,7 @@ export const packagesData = {
       {
         title: 'PAKET OVERHAUL ENGINE',
         detailSlug: 'overhaul-engine',
-        image: 'https://i.imgur.com/1JQxDIu.jpg',
+        image: '/image/paket/overhaul1.webp',
         subtitle: '',
         normalPrice: 'IDR 8.300K',
         discountPrice: 'IDR 2.500K',
@@ -398,7 +398,7 @@ export const packagesData = {
       {
         title: 'PAKET OVERHAUL ENGINE KOMPLIT',
         detailSlug: 'overhaul-engine-komplit',
-        image: 'https://i.imgur.com/ew2IeON.jpg',
+        image: '/image/paket/overhaul2.webp',
         subtitle: '',
         normalPrice: 'IDR 13.300K',
         discountPrice: 'IDR 3.500K',
@@ -406,7 +406,7 @@ export const packagesData = {
       {
         title: 'PAKET SUPER OVERHAUL ENGINE',
         detailSlug: 'super-overhaul-engine',
-        image: 'https://i.imgur.com/DG9z1TR.jpg',
+        image: '/image/paket/overhaul3.webp',
         subtitle: '',
         normalPrice: 'IDR 15.000K',
         discountPrice: 'IDR 4.500K',
@@ -615,9 +615,20 @@ export const packagesData = {
     pageTitle: 'PAKET NANO CERAMIC COATING',
     packages: [
       {
+        title: 'PAKET NANO BURN COATING HEADLAMP',
+        detailSlug: 'nano-burn-headlamp',
+        image: '/image/paket/nano1.webp',
+        description: [
+          'Paket Nano Burn Coating Headlamp dari TJM Auto Detailing adalah layanan pelapisan premium yang mengembalikan kejernihan lampu mobil yang kusam dan menguning agar terlihat seperti baru dan meningkatkan keamanan berkendara, kini ditawarkan dengan diskon 50% menjadi hanya Rp 399.000.',
+        ],
+        subtitle: 'PAKET NANO BURN COATING HEADLAMP',
+        normalPrice: 'IDR 800K',
+        discountPrice: 'IDR 399K',
+      },
+      {
         title: 'PAKET NANO CERAMIC COATING 1',
         detailSlug: 'nano-ceramic-1',
-        image: '/image/paket/nano1.webp',
+        image: '/image/paket/nano2.webp',
         description: [
           'Paket perlindungan cat dasar dengan 3 layer Nano Ceramic Coating. Termasuk detailing interior & eksterior, glass treatment + hydrophobic, glass coat, cuci snow + clay bar, recovery trim, back to black permanent, dan layanan detailing esensial lainnya untuk kilau maksimal.',
         ],
@@ -628,7 +639,7 @@ export const packagesData = {
       {
         title: 'PAKET NANO CERAMIC COATING 2',
         detailSlug: 'nano-ceramic-2',
-        image: '/image/paket/nano2.webp',
+        image: '/image/paket/nano3.webp',
         description: [
           'Paket perlindungan tingkat lanjut yang mencakup semua layanan di Paket 1, ditambah dengan bongkar jok total untuk pembersihan hama & serangga, inner fender detailing, dan wheel dressing untuk hasil yang lebih detail dan menyeluruh.',
         ],
@@ -639,7 +650,7 @@ export const packagesData = {
       {
         title: 'PAKET SUPER KOMPLIT NANO CERAMIC COATING',
         detailSlug: 'super-komplit-nano-ceramic',
-        image: '/image/paket/nano3.webp',
+        image: '/image/paket/nano4.webp',
         description: [
           'Paket proteksi dan detailing paling lengkap. Mencakup semua layanan di Paket 2, ditambah dengan Nano Burn Coating Headlamp, back to black permanent yang lebih mendalam, velg detailing, cuci snow jok, dan spot detailing untuk kesempurnaan tampilan kendaraan Anda.',
         ],
