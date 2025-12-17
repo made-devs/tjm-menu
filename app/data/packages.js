@@ -787,9 +787,9 @@ export const packagesData = {
       {
         title: 'PAKET NANO BURN COATING HEADLAMP',
         detailSlug: 'nano-burn-headlamp',
-        image: '/image/paket/nano1.webp',
+        image: '/image/paket/detailing9.webp',
         description: [
-          'Paket Nano Burn Coating Headlamp dari TJM Auto Detailing adalah layanan pelapisan premium yang mengembalikan kejernihan lampu mobil yang kusam dan menguning agar terlihat seperti baru dan meningkatkan keamanan berkendara, kini ditawarkan dengan diskon 50% menjadi hanya Rp 399.000.',
+          'Paket pelapisan premium headlamp untuk mengembalikan kejernihan, menghilangkan warna kuning pada mika lampu, membuat headlamp tampak seperti baru, meningkatkan keamanan berkendara, dan bonus poles setelah nano burn.',
         ],
         subtitle: 'PAKET NANO BURN COATING HEADLAMP',
         normalPrice: 'IDR 800K',
@@ -798,9 +798,9 @@ export const packagesData = {
       {
         title: 'PAKET NANO CERAMIC COATING 1',
         detailSlug: 'nano-ceramic-1',
-        image: '/image/paket/nano2.webp',
+        image: '/image/paket/nano1.webp',
         description: [
-          'Paket perlindungan cat dasar dengan 3 layer Nano Ceramic Coating. Termasuk detailing interior & eksterior, glass treatment + hydrophobic, glass coat, cuci snow + clay bar, recovery trim, back to black permanent, dan layanan detailing esensial lainnya untuk kilau maksimal.',
+          'Paket perlindungan cat mobil dengan 3 layer nano ceramic coating, detailing interior & eksterior, glass treatment, cuci snow wash + clay bar, recovery trim, back to black, nano spray disinfectant, water spot remover, waxing, ozone treatment, fogging AC, spot & emblem detailing, engine & velg detailing, serta treatment uap.',
         ],
         subtitle: 'PAKET NANO CERAMIC COATING 1',
         normalPrice: 'IDR 4.000K',
@@ -809,9 +809,9 @@ export const packagesData = {
       {
         title: 'PAKET NANO CERAMIC COATING 2',
         detailSlug: 'nano-ceramic-2',
-        image: '/image/paket/nano3.webp',
+        image: '/image/paket/nano2.webp',
         description: [
-          'Paket perlindungan tingkat lanjut yang mencakup semua layanan di Paket 1, ditambah dengan bongkar jok total untuk pembersihan hama & serangga, inner fender detailing, dan wheel dressing untuk hasil yang lebih detail dan menyeluruh.',
+          'Paket perlindungan cat mobil dengan 3 layer nano ceramic coating, detailing interior & eksterior, glass treatment, cuci snow wash + clay bar, recovery trim, back to black, nano spray disinfectant, treatment uap, bongkar jok total, inner fender detailing, wheel dressing, water spot remover, emblem & spot detailing, engine & velg detailing, fogging AC, cuci snow jok, dan waxing.',
         ],
         subtitle: 'PAKET NANO CERAMIC COATING 2',
         normalPrice: 'IDR 4.400K',
@@ -820,9 +820,9 @@ export const packagesData = {
       {
         title: 'PAKET SUPER KOMPLIT NANO CERAMIC COATING',
         detailSlug: 'super-komplit-nano-ceramic',
-        image: '/image/paket/nano4.webp',
+        image: '/image/paket/nano3.webp',
         description: [
-          'Paket proteksi dan detailing paling lengkap. Mencakup semua layanan di Paket 2, ditambah dengan Nano Burn Coating Headlamp, back to black permanent yang lebih mendalam, velg detailing, cuci snow jok, dan spot detailing untuk kesempurnaan tampilan kendaraan Anda.',
+          'Paket paling lengkap dengan 3 layer nano ceramic coating, full detailing interior & eksterior, glass treatment, cuci snow wash + clay bar, recovery trim, back to black, nano spray disinfectant, water spot remover, waxing, inner fender detailing, nano burn coating headlamp, engine & velg detailing, wheel dressing, treatment uap, cuci snow jok, bongkar jok total, ozone treatment, fogging, emblem & spot detailing.',
         ],
         subtitle: 'PAKET SUPER KOMPLIT NANO CERAMIC COATING',
         normalPrice: 'IDR 5.600K',

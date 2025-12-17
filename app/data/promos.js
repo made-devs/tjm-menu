@@ -9,102 +9,102 @@ export const promoData = [
         {
           image: '/image/promo/ac1.webp',
           description:
-            '<b>Diskon Paket Hingga 50%</b><br/>Dapatkan penawaran terbaik untuk berbagai layanan perawatan mobil dari TJM AC Mobil, dengan <b>Diskon Paket hingga 50%</b>. Berlaku untuk semua paket service yang tersedia.',
+            '<b>Diskon Paket Hingga 50%</b><br/>Dapatkan penawaran terbaik untuk berbagai layanan perawatan mobil dari TJM AC Mobil, dengan <b>Diskon Paket hingga 50%</b>. Berlaku untuk semua paket service yang tersedia selama Mega Promo Akhir Tahun.',
         },
         {
           image: '/image/promo/ac2.webp',
           description:
-            '<b>Gratis Inspeksi AC Mobil 20 Titik</b><br/>Manfaatkan layanan pemeriksaan mendalam pada 20 titik sistem AC mobil Anda secara <b>GRATIS</b>, guna memastikan performa dingin maksimal dan kesiapan mobil Anda.',
+            '<b>Gratis Carwash + Claybar + Vacuum Interior</b><br/>Raih layanan <b>GRATIS Cuci Mobil, Claybar, dan Vacuum Interior</b> untuk mobil bersih luar dalam selama Mega Promo Akhir Tahun di TJM AC Mobil.',
         },
         {
           image: '/image/promo/ac3.webp',
           description:
-            '<b>Gratis Voucher Diskon 30% Paket Anti Karat</b><br/>Lindungi mobil Anda dari korosi! Dapatkan <b>Voucher GRATIS</b> untuk diskon <b>30%</b> pada layanan dan paket anti karat mobil profesional.',
+            '<b>Gratis Inspeksi AC Mobil 20 Titik</b><br/>Manfaatkan layanan pemeriksaan mendalam pada 20 titik sistem AC mobil Anda secara <b>GRATIS</b>, guna memastikan performa dingin maksimal dan kesiapan mobil Anda selama Mega Promo Akhir Tahun di TJM AC Mobil.',
         },
         {
           image: '/image/promo/ac4.webp',
           description:
-            '<b>Gratis Carwash + Claybar + Vacuum Interior</b><br/>Raih layanan <b>Cuci Mobil</b>, *Claybar*, dan *Vacuum Interior* secara <b>GRATIS</b> untuk mobil bersih luar dalam.',
+            '<b>Gratis General Check Up Kaki-Kaki 25 Titik</b><br/>Jaga keamanan dan kenyamanan berkendara Anda! Dapatkan <b>GRATIS General Check Up Kaki-Kaki di 25 Titik</b>, termasuk pemeriksaan pada sistem rem dan suspensi selama Mega Promo Akhir Tahun di TJM AC Mobil.',
         },
         {
           image: '/image/promo/ac5.webp',
           description:
-            '<b>Gratis Inspeksi Karat Kolong Mobil</b><br/>Jaga struktur mobil Anda! Nikmati layanan <b>GRATIS Inspeksi</b> menyeluruh kondisi karat di kolong mobil, termasuk area *shockbreaker* dan rangka.',
+            '<b>Gratis Inspeksi Karat Kolong Mobil</b><br/>Jaga struktur mobil Anda! Nikmati layanan <b>GRATIS Inspeksi</b> menyeluruh kondisi karat di kolong mobil, termasuk area shockbreaker dan rangka selama Mega Promo Akhir Tahun di TJM AC Mobil.',
         },
         {
           image: '/image/promo/ac6.webp',
           description:
-            '<b>Gratis General Check Up Kaki-Kaki 25 Titik</b><br/>Jaga keamanan dan kenyamanan berkendara Anda! Dapatkan <b>GRATIS General Check Up Kaki-Kaki di 25 Titik</b>, termasuk pemeriksaan pada sistem rem dan suspensi.',
+            '<b>Gratis Inspeksi Tune Up di 65 Titik</b><br/>Pastikan mesin mobil Anda selalu prima dan efisien! Dapatkan <b>GRATIS Inspeksi Tune Up di 65 Titik</b>, yang mencakup pemeriksaan mendalam pada komponen mesin vital selama Mega Promo Akhir Tahun di TJM AC Mobil.',
         },
         {
           image: '/image/promo/ac7.webp',
           description:
-            '<b>Gratis Inspeksi Tune Up di 65 Titik</b><br/>Pastikan mesin mobil Anda selalu prima dan efisien! Dapatkan <b>GRATIS Inspeksi Tune Up di 65 Titik</b>, yang mencakup pemeriksaan mendalam pada komponen mesin vital.',
+            '<b>Gratis Vaporizer Steamer Uap AC</b><br/>Segarkan kembali kualitas udara di dalam kabin mobil Anda! Nikmati layanan <b>GRATIS Vaporizer Steamer Uap AC</b> yang efektif membunuh bakteri dan menghilangkan bau tak sedap dari sistem AC selama Mega Promo Akhir Tahun di TJM AC Mobil.',
         },
         {
           image: '/image/promo/ac8.webp',
           description:
-            '<b>Gratis Glass Treatment / Nano Burn Coating Headlamp</b><br/>Tingkatkan visibilitas berkendara Anda! Dapatkan <b>GRATIS Glass Treatment</b> untuk kaca mobil atau <b>Nano Burn Coating Headlamp</b> untuk mengembalikan kejernihan lampu depan mobil Anda.',
+            '<b>Gratis Konsultasi Hukum & Bisnis</b><br/>Untuk Anda yang sedang membangun bisnis, tersedia layanan <b>Konsultasi Hukum dan Bisnis GRATIS</b> dengan pakar profesional, yang siap membantu mengurai masalah legal dan strategi usaha Anda selama Mega Promo Akhir Tahun di TJM AC Mobil.',
         },
         {
           image: '/image/promo/ac9.webp',
           description:
-            '<b>Gratis Vaporizer Steamer Uap AC</b><br/>Segarkan kembali kualitas udara di dalam kabin mobil Anda! Nikmati layanan <b>GRATIS Vaporizer Steamer Uap AC</b> yang efektif membunuh bakteri dan menghilangkan bau tak sedap dari sistem AC.',
+            '<b>Gratis Konsultasi Bisnis Ekspor - Impor</b><br/>Manfaatkan jaringan TJM AC Mobil! Dapatkan layanan <b>Konsultasi Bisnis Ekspor-Impor GRATIS</b> dengan tim ahli, yang akan membantu Anda mengembangkan peluang bisnis di skala internasional selama Mega Promo Akhir Tahun.',
         },
         {
           image: '/image/promo/ac10.webp',
           description:
-            '<b>Gratis Konsultasi Bisnis Ekspor - Impor</b><br/>Manfaatkan jaringan TJM AC Mobil! Dapatkan layanan <b>Konsultasi Bisnis Ekspor-Impor GRATIS</b> dengan tim ahli, yang akan membantu Anda mengembangkan peluang bisnis di skala internasional.',
+            '<b>Gratis Konsultasi Ekspor - Impor</b><br/>Manfaatkan kesempatan <b>GRATIS Konsultasi Ekspor-Impor</b> untuk mendapatkan arahan strategis dan peluang mengembangkan bisnis Anda di pasar global selama Mega Promo Akhir Tahun di TJM AC Mobil.',
         },
         {
           image: '/image/promo/ac11.webp',
           description:
-            '<b>Gratis Konsultasi Ekspor - Impor</b><br/>Manfaatkan kesempatan <b>GRATIS Konsultasi Ekspor-Impor</b> untuk mendapatkan arahan strategis dan peluang mengembangkan bisnis Anda di pasar global.',
+            '<b>Gratis VIP Member Card + Sticker Membership</b><br/>Jadilah pelanggan istimewa TJM Auto Care! Nikmati <b>GRATIS</b> mendapatkan <b>VIP Member Card</b> beserta stiker eksklusif, yang memberikan Anda berbagai keuntungan dan layanan prioritas selama Mega Promo Akhir Tahun di TJM AC Mobil.',
         },
         {
           image: '/image/promo/ac12.webp',
           description:
-            '<b>Gratis Konsultasi Hukum & Bisnis</b><br/>Untuk Anda yang sedang membangun bisnis, tersedia layanan <b>Konsultasi Hukum dan Bisnis GRATIS</b> dengan pakar profesional, yang siap membantu mengurai masalah legal dan strategi usaha Anda.',
+            '<b>Gratis Rubberized Undercoat</b><br/>Berikan perlindungan ekstra pada kolong mobil Anda dari benturan dan karat! Nikmati layanan <b>Rubberized Undercoat GRATIS</b> untuk melapisi kolong mobil dengan bahan karet pelindung selama Mega Promo Akhir Tahun di TJM AC Mobil.',
         },
         {
           image: '/image/promo/ac13.webp',
           description:
-            '<b>Gratis VIP Member Card + Sticker Membership</b><br/>Jadilah pelanggan istimewa TJM Auto Care! Nikmati <b>GRATIS</b> mendapatkan <b>VIP Member Card</b> beserta stiker eksklusif, yang memberikan Anda berbagai keuntungan dan layanan prioritas.',
+            '<b>Gratis Voucher Diskon 30% Paket Anti Karat</b><br/>Lindungi kolong mobil Anda dari karat! Dapatkan <b>Voucher GRATIS</b> diskon <b>30%</b> untuk layanan Paket Anti Karat selama Mega Promo Akhir Tahun di TJM AC Mobil.',
         },
         {
           image: '/image/promo/ac14.webp',
           description:
-            '<b>Gratis Rubberized Undercoat</b><br/>Berikan perlindungan ekstra pada kolong mobil Anda dari benturan dan karat! Nikmati layanan <b>Rubberized Undercoat GRATIS</b> untuk melapisi kolong mobil dengan bahan karet pelindung.',
+            '<b>Gratis Voucher Diskon 50% Nano Ceramic Coating</b><br/>Lindungi cat mobil Anda dengan teknologi terkini! Dapatkan <b>Voucher GRATIS</b> yang memberikan diskon hingga <b>50%</b> untuk layanan Nano Ceramic Coating premium, agar mobil Anda tampak mengilap dan terlindungi maksimal selama Mega Promo Akhir Tahun di TJM AC Mobil.',
         },
         {
           image: '/image/promo/ac15.webp',
           description:
-            '<b>Gratis Voucher Diskon 50% Nano Ceramic Coating</b><br/>Lindungi cat mobil Anda dengan teknologi terkini! Dapatkan <b>Voucher GRATIS</b> yang memberikan diskon hingga <b>50%</b> untuk layanan Nano Ceramic Coating premium, agar mobil Anda tampak mengilap dan terlindungi maksimal.',
+            '<b>Gratis Voucher Detailing Interior / Eksterior</b><br/>Percantik tampilan mobil Anda luar dan dalam! Segera dapatkan <b>Voucher GRATIS Detailing Interior atau Eksterior</b> untuk mengembalikan kilau bodi mobil dan kebersihan kabin selama Mega Promo Akhir Tahun di TJM AC Mobil.',
         },
         {
           image: '/image/promo/ac16.webp',
           description:
-            '<b>Gratis Voucher Detailing Interior / Eksterior</b><br/>Percantik tampilan mobil Anda luar dan dalam! Segera dapatkan <b>Voucher GRATIS Detailing Interior atau Eksterior</b> untuk mengembalikan kilau bodi mobil dan kebersihan kabin.',
+            '<b>Gratis Voucher Engine Detailing</b><br/>Jaga performa mesin sekaligus kebersihannya! Nikmati <b>Voucher GRATIS Engine Detailing</b> untuk membersihkan ruang mesin dari kotoran dan debu, membuat mesin terlihat seperti baru selama Mega Promo Akhir Tahun di TJM AC Mobil.',
         },
         {
           image: '/image/promo/ac17.webp',
           description:
-            '<b>Gratis Voucher Engine Detailing</b><br/>Jaga performa mesin sekaligus kebersihannya! Nikmati <b>Voucher GRATIS Engine Detailing</b> untuk membersihkan ruang mesin dari kotoran dan debu, membuat mesin terlihat seperti baru.',
+            '<b>Gratis Glass Treatment / Nano Burn Coating Headlamp</b><br/>Tingkatkan visibilitas dan perlindungan lampu mobil Anda! Nikmati layanan <b>GRATIS Glass Treatment</b> atau <b>Nano Burn Coating Headlamp</b> selama Mega Promo Akhir Tahun di TJM AC Mobil.',
         },
         {
           image: '/image/promo/ac18.webp',
           description:
-            '<b>Gratis Voucher Service Potongan Harga (TJM Peduli)</b><br/>Berpartisipasi dalam aksi sosial! Dapatkan <b>Voucher Service Potongan Harga GRATIS</b>, di mana selisih harga akan disalurkan ke program amal <b>TJM Peduli</b>.',
+            '<b>Promo Voucher Service Potongan Harga (TJM Peduli)</b><br/>Berpartisipasi dalam aksi sosial! Dapatkan <b>Voucher Service Potongan Harga GRATIS</b>, di mana selisih harga akan disalurkan ke program amal <b>TJM Peduli</b> selama Mega Promo Akhir Tahun di TJM AC Mobil.',
         },
         {
           image: '/image/promo/ac19.webp',
           description:
-            '<b>Gratis Voucher Diskon 20% Sentinel Coffee dan Bistro</b><br/>Sambil menunggu mobil Anda dirawat, manjakan diri Anda! Dapatkan <b>Voucher GRATIS</b> diskon <b>20%</b> untuk menikmati hidangan dan kopi di <b>Sentinel Coffee dan Bistro</b>.',
+            '<b>Gratis Voucher Diskon 20% Sentinel Coffee dan Bistro</b><br/>Sambil menunggu mobil Anda dirawat, manjakan diri Anda! Dapatkan <b>Voucher GRATIS</b> diskon <b>20%</b> untuk menikmati hidangan dan kopi di <b>Sentinel Coffee dan Bistro</b> selama Mega Promo Akhir Tahun di TJM AC Mobil.',
         },
         {
           image: '/image/promo/ac20.webp',
           description:
-            '<b>Gratis Wheel Dressing + Wiper Fluid</b><br/>Pastikan penampilan mobil Anda sempurna hingga ke detail terkecil! Nikmati layanan <b>GRATIS Wheel Dressing</b> untuk ban yang mengilap dan *Wiper Fluid* agar kaca depan selalu bersih.',
+            '<b>Gratis Wheel Dressing + Wiper Fluid</b><br/>Pastikan penampilan mobil Anda sempurna hingga ke detail terkecil! Nikmati layanan <b>GRATIS Wheel Dressing</b> untuk ban yang mengilap dan <b>Wiper Fluid</b> agar kaca depan selalu bersih selama Mega Promo Akhir Tahun di TJM AC Mobil.',
         },
       ],
     },

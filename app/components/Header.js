@@ -13,17 +13,17 @@ const menuData = [
   {
     text: 'PROMO PAKET SERVICE',
     subMenu: [
+      { text: 'PAKET SPECIAL', href: '/paket/special' },
       { text: 'PAKET MEMBER', href: '/paket/member' },
+      { text: 'PAKET SUPER HEMAT', href: '/paket/super-hemat' },
+      { text: 'PAKET COMBO SUPER KOMPLIT', href: '/paket/combo-super-komplit' },
       { text: 'PAKET KAKI - KAKI', href: '/paket/kaki-kaki' },
       { text: 'PAKET COMBO KAKI - KAKI', href: '/paket/combo-kaki-kaki' },
-      { text: 'PAKET COMBO SUPER KOMPLIT', href: '/paket/combo-super-komplit' },
-      { text: 'PAKET SUPER HEMAT', href: '/paket/super-hemat' },
-      { text: 'PAKET STEERING', href: '/paket/steering' },
       { text: 'PAKET RACKSTEER', href: '/paket/racksteer' },
-      { text: 'PAKET DIESEL', href: '/paket/diesel' },
-      { text: 'PAKET SUSPENSION', href: '/paket/suspension' },
       { text: 'PAKET SHOCKBREAKER', href: '/paket/shockbreaker' },
-      { text: 'PAKET SPECIAL', href: '/paket/special' },
+      { text: 'PAKET STEERING', href: '/paket/steering' },
+      { text: 'PAKET SUSPENSION', href: '/paket/suspension' },
+      { text: 'PAKET DIESEL', href: '/paket/diesel' },
       { text: 'PAKET OVERHAUL ENGINE', href: '/paket/overhaul-engine' },
       { text: 'PAKET AC MOBIL', href: '/paket/ac-mobil' },
       { text: 'PAKET ANTI KARAT', href: '/paket/anti-karat' },
@@ -35,7 +35,7 @@ const menuData = [
     text: 'PROMO BULAN INI',
     subMenu: [
       {
-        text: '30 PROMO GRATIS SENILAI 7 JT',
+        text: '30 PROMO GRATIS SENILAI 8 JT',
         href: '/promo/auto-care',
       },
       {
@@ -56,10 +56,10 @@ const menuData = [
       },
     ],
   },
-  {
-    text: 'PROMO PAKET MEMBER',
-    subMenu: [{ text: 'PAKET MEMBER TAHUNAN KOMPLIT', href: '/member' }],
-  },
+  // {
+  //   text: 'PROMO PAKET MEMBER',
+  //   subMenu: [{ text: 'PAKET MEMBER TAHUNAN KOMPLIT', href: '/member' }],
+  // },
   {
     text: 'PROMO TEBUS MURAH',
     subMenu: [
