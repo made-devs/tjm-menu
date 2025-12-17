@@ -13,13 +13,16 @@ const menuData = [
   {
     text: 'PROMO PAKET SERVICE',
     subMenu: [
+      { text: 'PAKET MEMBER', href: '/paket/member' },
       { text: 'PAKET KAKI - KAKI', href: '/paket/kaki-kaki' },
       { text: 'PAKET COMBO KAKI - KAKI', href: '/paket/combo-kaki-kaki' },
       { text: 'PAKET COMBO SUPER KOMPLIT', href: '/paket/combo-super-komplit' },
       { text: 'PAKET SUPER HEMAT', href: '/paket/super-hemat' },
       { text: 'PAKET STEERING', href: '/paket/steering' },
-      { text: 'PAKET RACKSTEER HEMAT', href: '/paket/racksteer-hemat' },
+      { text: 'PAKET RACKSTEER', href: '/paket/racksteer' },
       { text: 'PAKET DIESEL', href: '/paket/diesel' },
+      { text: 'PAKET SUSPENSION', href: '/paket/suspension' },
+      { text: 'PAKET SHOCKBREAKER', href: '/paket/shockbreaker' },
       { text: 'PAKET SPECIAL', href: '/paket/special' },
       { text: 'PAKET OVERHAUL ENGINE', href: '/paket/overhaul-engine' },
       { text: 'PAKET AC MOBIL', href: '/paket/ac-mobil' },

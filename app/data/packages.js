@@ -1,13 +1,40 @@
 // app/data/packages.js
 
 export const packagesData = {
+  member: {
+    pageTitle: 'PAKET MEMBER',
+    packages: [
+      {
+        title: 'PAKET MEMBER TAHUNAN PLATINUM',
+        detailSlug: 'member-platinum',
+        image: '/image/paket/member1.webp',
+        description: [
+          'Paket Member Tahunan Platinum dari TJM Auto Care memberikan berbagai layanan perawatan mobil selama setahun, seperti spooring sepuasnya, engine detailing, full detailing eksterior dan interior, nano burn headlamp, gurah mesin, diagnosa engine scanner, glass treatment, service rem, fogging AC, car wash & vacuum, serta diskon khusus member. Paket ini memberikan promo gratis hingga 8 juta rupiah dengan harga diskon menarik.',
+        ],
+        subtitle: 'MEMBER PLATINUM',
+        normalPrice: 'IDR 12.500K',
+        discountPrice: 'IDR 2.500K',
+      },
+      {
+        title: 'PAKET MEMBER TAHUNAN DIAMOND',
+        detailSlug: 'member-diamond',
+        image: '/image/paket/member2.webp',
+        description: [
+          'Paket Member Tahunan Diamond dari TJM Auto Care menawarkan layanan perawatan mobil super lengkap selama setahun, termasuk spooring sepuasnya, engine detailing, full detailing eksterior dan interior, nano ceramic coating, undercoat, deep cleaning, diagnosa engine scanner, nano burn headlamp, gurah mesin, glass treatment, service rem, fogging AC, car wash & vacuum, serta berbagai diskon khusus member. Total nilai promo gratis hingga 8 juta rupiah dengan harga diskon spesial.',
+        ],
+        subtitle: 'MEMBER DIAMOND',
+        normalPrice: 'IDR 19.000K',
+        discountPrice: 'IDR 4.000K',
+      },
+    ],
+  },
   'kaki-kaki': {
     pageTitle: 'PAKET KAKI - KAKI',
     packages: [
       {
         title: 'PAKET KAKI-KAKI SUPER HEMAT',
         detailSlug: 'super-hemat',
-        image: '/image/paket/kakikaki1.webp',
+        image: '/image/paket/kaki1.webp',
         description: [
           'PAKET KAKI KAKI SUPER HEMAT ADALAH PAKET PERAWATAN KAKI KAKI REKONDISI YANG MENCAKUP HAMPIR SELURUH KOMPONEN DARI SUSPENSI / KAKI KAKI KECUALI RACKSTEER, BUBUT DISC BRAKE DAN SHOCK BREAKER.',
           'PAKET KAKI KAKI INI ADALAH PAKET TERMURAH SE- INDONESIA YANG MENCAKUP BELASAN PENGERJAAN PADA MOBIL ANDA. DI PAKET INI CUSTOMER AKAN MENDAPATKAN REKONDISI KAKI KAKI DENGAN HARGA DI BAWAH 1 JUTA, DAN DI PAKET INI CUSTOMER AKAN MENDAPATKAN 21 PROMO GRATIS SENILAI 4,1 JUTA RUPIAH.',
@@ -19,19 +46,19 @@ export const packagesData = {
       {
         title: 'PAKET KAKI-KAKI KOMPLIT',
         detailSlug: 'komplit',
-        image: '/image/paket/kakikaki2.webp',
+        image: '/image/paket/kaki2.webp',
         description: [
           'PAKET KAKI KAKI KOMPLIT ADALAH PAKET PERAWATAN KAKI KAKI REKONDISI YANG MENCAKUP HAMPIR SELURUH KOMPONEN DARI SUSPENSI / KAKI KAKI KECUALI RACKSTEER, BUBUT DISC BRAKE DAN SHOCK BREAKER',
           'DI PAKET INI CUSTOMER AKAN MENDAPATKAN REKONDISI KAKI KAKI DENGAN HARGA MULAI DARI 1 JUTAAN, DAN DI PAKET INI CUSTOMER AKAN MENDAPATKAN 21 PROMO GRATIS SENILAI 4,1 JUTA RUPIAH.',
         ],
         subtitle: 'KAKI - KAKI KOMPLIT',
-        normalPrice: 'IDR 6.100K',
+        normalPrice: 'IDR 6.500K',
         discountPrice: 'IDR 1.200K',
       },
       {
         title: 'PAKET KAKI-KAKI SUPER KOMPLIT',
         detailSlug: 'super-komplit',
-        image: '/image/paket/kakikaki3.webp',
+        image: '/image/paket/kaki3.webp',
         description: [
           'PAKET KAKI KAKI SUPER KOMPLIT ADALAH PAKET PERAWATAN KAKI KAKI REKONDISI YANG MENCAKUP SELURUH KOMPONEN DARI SUSPENSI / KAKI KAKI TERMASUK RACKSTEER DAN BUBUT DISC BRAKE.',
           'HANYA DENGAN 2 JUTAAN , CUSTOMER AKAN MENDAPATKAN LEBIH DARI PULUHAN PENGERJAAN KAKI KAKI DAN MENDAPATKAN 21 PROMO GRATIS SENILAI 4,1 JUTA RUPIAH.',
@@ -43,7 +70,7 @@ export const packagesData = {
       {
         title: 'PAKET KAKI-KAKI ALL IN ONE',
         detailSlug: 'all-in-one',
-        image: '/image/paket/kakikaki4.webp',
+        image: '/image/paket/kaki4.webp',
         description: [
           'PAKET KAKI KAKI ALL IN ONE ADALAH PAKET PERAWATAN KAKI KAKI TERLENGKAP YANG MENCAKUP SELURUH KOMPONEN DARI SUSPENSI / KAKI KAKI TERMASUK RACKSTEER DAN BUBUT DISC BRAKE, SERTA AREA MESIN.',
           'HANYA DENGAN 2 JUTAAN , CUSTOMER AKAN MENDAPATKAN LEBIH DARI PULUHAN PENGERJAAN KAKI KAKI DAN MENDAPATKAN 21 PROMO GRATIS SENILAI 4,1 JUTA RUPIAH.',
@@ -114,7 +141,7 @@ export const packagesData = {
       {
         title: 'PAKET COMBO SUPER KOMPLIT 1',
         detailSlug: 'super-komplit1',
-        image: '/image/paket/combokomplit1.webp',
+        image: '/image/paket/komplit1.webp',
         description: [
           'PAKET COMBO SUPER KOMPLIT ADALAH PAKET KOMBINASI ANTARA SERVICE MESIN KOMPLIT , PAKET KAKI KAKI KOMPLIT DAN AUTO DETAILING DAN NANO CERAMIC COATING KOMPLIT.',
           'PAKET INI MERUPAKAN PAKET TERLENGKAP DARI SELURUH SERI PAKET TJM AUTO CARE , CUSTOMER BANYAK MENGAMBIL PAKET INI DI KARENAKAN HARGA YANG MURAH DAN PEKERJAAN YANG LENGKAP KARENA KOMBINASI NYA YANG BANYAK.',
@@ -126,7 +153,7 @@ export const packagesData = {
       {
         title: 'PAKET COMBO SUPER KOMPLIT 2',
         detailSlug: 'super-komplit2',
-        image: '/image/paket/combokomplit2.webp',
+        image: '/image/paket/komplit2.webp',
         description: [
           'PAKET COMBO SUPER KOMPLIT ADALAH PAKET KOMBINASI ANTARA SERVICE MESIN KOMPLIT , PAKET KAKI KAKI KOMPLIT DAN AUTO DETAILING DAN NANO CERAMIC COATING KOMPLIT.',
           'PAKET INI MERUPAKAN PAKET TERLENGKAP DARI SELURUH SERI PAKET TJM AUTO CARE , CUSTOMER BANYAK MENGAMBIL PAKET INI DI KARENAKAN HARGA YANG MURAH DAN PEKERJAAN YANG LENGKAP KARENA KOMBINASI NYA YANG BANYAK.',
@@ -138,7 +165,7 @@ export const packagesData = {
       {
         title: 'PAKET COMBO ALL IN ONE',
         detailSlug: 'all-in-one-combo',
-        image: '/image/paket/combokomplit3.webp',
+        image: '/image/paket/komplit3.webp',
         description: [
           'PAKET COMBO ALL IN ONE ADALAH PAKET KOMBINASI ANTARA SERVICE MESIN KOMPLIT , PAKET KAKI KAKI KOMPLIT DAN AUTO DETAILING DAN NANO CERAMIC COATING KOMPLIT.',
           'PAKET INI MERUPAKAN PAKET TERLENGKAP DARI SELURUH SERI PAKET TJM AUTO CARE , CUSTOMER BANYAK MENGAMBIL PAKET INI DI KARENAKAN HARGA YANG MURAH DAN PEKERJAAN YANG LENGKAP KARENA KOMBINASI NYA YANG BANYAK.',
@@ -155,7 +182,7 @@ export const packagesData = {
       {
         title: 'PAKET SUPER HEMAT 1',
         detailSlug: 'super-hemat1',
-        image: '/image/paket/superhemat1.webp',
+        image: '/image/paket/hemat1.webp',
         description: [
           'PAKET SUPER HEMAT ADALAH SERI MENENGAH DARI TJM AUTO CARE, DI PAKET INI KITA FOKUS UNTUK PERAWATAN SERVICEBERKALA KOMPLIT DAN LENGKAP.',
         ],
@@ -166,7 +193,7 @@ export const packagesData = {
       {
         title: 'PAKET SUPER HEMAT 2',
         detailSlug: 'super-hemat2',
-        image: '/image/paket/superhemat2.webp',
+        image: '/image/paket/hemat2.webp',
         description: [
           'PAKET SUPER HEMAT ADALAH SERI MENENGAH DARI TJM AUTO CARE, DI PAKET INI KITA FOKUS UNTUK PERAWATAN SERVICEBERKALA KOMPLIT DAN LENGKAP.',
         ],
@@ -177,7 +204,7 @@ export const packagesData = {
       {
         title: 'PAKET SUPER HEMAT 3',
         detailSlug: 'super-hemat3',
-        image: '/image/paket/superhemat3.webp',
+        image: '/image/paket/hemat3.webp',
         description: [
           'PAKET SUPER HEMAT ADALAH SERI MENENGAH DARI TJM AUTO CARE, DI PAKET INI KITA FOKUS UNTUK PERAWATAN SERVICEBERKALA KOMPLIT DAN LENGKAP.',
         ],
@@ -188,7 +215,7 @@ export const packagesData = {
       {
         title: 'PAKET COMBO SUPER HEMAT + AUTO DETAILING',
         detailSlug: 'super-hemat-detailing',
-        image: '/image/paket/superhemat4.webp',
+        image: '/image/paket/hemat4.webp',
         description: [
           'PAKET SUPER HEMAT ADALAH SERI MENENGAH DARI TJM AUTO CARE, DI PAKET INI KITA FOKUS UNTUK PERAWATAN SERVICEBERKALA KOMPLIT DAN LENGKAP.',
           'DI PAKET SUPERHEMAT + AUTO DETAILING CUSTOMER AKAN MENDAPATKAN KOMBINASI SERVICE MOBIL DAN AUTO DETAILING, (DI PAKET INI TIDAK ADA PENGERJAAN REKONDISI KAKI KAKI, TAPI CUSTOMER TETAP MENDAPATKAN SALAH SATU PROMO YAITU CEK KAKI KAKI ALL IN)',
@@ -240,21 +267,21 @@ export const packagesData = {
       },
     ],
   },
-  'racksteer-hemat': {
-    pageTitle: 'PAKET KAKI - KAKI RACKSTEER HEMAT',
+  racksteer: {
+    pageTitle: 'PAKET KAKI - KAKI RACKSTEER',
     packages: [
       {
-        title: 'PAKET KAKI-KAKI RACKSTEER HEMAT',
+        title: 'PAKET KAKI-KAKI RACKSTEER',
         detailSlug: 'racksteer',
         image: '/image/paket/racksteer.webp',
         description: [
-          'PAKET KAKI-KAKI RACKSTEER HEMAT ADALAH PAKET HEMAT YANG MENCAKUP PERAWATAN RACKSTEER (REKONDISI & SETEL ULANG), BUSHING RACKSTEER CUSTOM, TUNE UP 65 KOMPONEN, INJECTOR CLEANING, PENGECEKAN IDLE ARM, LINK STABILIZER, BALL JOINT, TIE ROD, LONG TIE ROD, BEARING RODA, LOWER ARM, HINGGA SERVICE REM KOMPLIT.',
+          'PAKET KAKI-KAKI RACKSTEER ULTIMATE ADALAH PAKET HEMAT YANG MENCAKUP PERAWATAN RACKSTEER (REKONDISI & SETEL ULANG), BUSHING RACKSTEER CUSTOM, TUNE UP 65 KOMPONEN, INJECTOR CLEANING, PENGECEKAN IDLE ARM, LINK STABILIZER, BALL JOINT, TIE ROD, LONG TIE ROD, BEARING RODA, LOWER ARM, HINGGA SERVICE REM KOMPLIT.',
           'TERMASUK PELAPISAN ANTI KARAT (RUBBERIZED UNDERCOAT), GREASE/PELUMAS AREA KAKI-KAKI, GENERAL CHECK UP KAKI-KAKI 25 TITIK, ROTASI BAN 4 RODA, SERVICE AC MOBIL, DAN WHEEL DRESSING.',
           'PAKET INI MEMBERIKAN 22 LAYANAN PERAWATAN KAKI-KAKI & STEERING DENGAN FOKUS PADA EFISIENSI BIAYA NAMUN TETAP MENYELURUH.',
         ],
         subtitle: '',
-        normalPrice: 'IDR 4.100K',
-        discountPrice: 'IDR 1.250K',
+        normalPrice: 'IDR 2.500K',
+        discountPrice: 'IDR 750K',
       },
     ],
   },
@@ -413,6 +440,82 @@ export const packagesData = {
       },
     ],
   },
+  suspension: {
+    pageTitle: 'PAKET SUSPENSION',
+    packages: [
+      {
+        title: 'PAKET CUSTOM SUSPENSION HEMAT',
+        detailSlug: 'custom-suspension-hemat',
+        image: '/image/paket/suspension1.webp',
+        description: [
+          'Paket Custom Suspension Hemat TJM Auto Care adalah solusi ekonomis untuk custom suspensi ceper, cutting per 4 roda, custom ceper sesuai keinginan, painting warna, fitting & uji coba sepuasnya, tune up 65 komponen, gurah mesin, injector cleaner, catalytic cleaner, inspeksi kaki-kaki, inspeksi AC, dan pengisian nitrogen shockbreaker. Promo gratis senilai 8 juta rupiah.',
+        ],
+        subtitle: 'CUSTOM SUSPENSION HEMAT',
+        normalPrice: 'IDR 3.300K',
+        discountPrice: 'IDR 999K',
+      },
+      {
+        title: 'PAKET CUSTOM SUSPENSION + CUSTOM SPRING',
+        detailSlug: 'custom-spring',
+        image: '/image/paket/suspension2.webp',
+        description: [
+          'Paket Custom Suspension + Custom Spring TJM Auto Care menawarkan custom suspensi ceper/tinggi, custom spring 4 roda, custom tinggi/ceper sesuai keinginan, painting warna, stopper shock, fitting & uji coba sepuasnya, tune up 65 komponen, gurah mesin, injector cleaner, spooring, balancing, catalytic cleaner, inspeksi kaki-kaki & AC, serta pengisian nitrogen shockbreaker. Promo gratis senilai 8 juta rupiah.',
+        ],
+        subtitle: 'CUSTOM SUSPENSION + SPRING',
+        normalPrice: 'IDR 8.300K',
+        discountPrice: 'IDR 2.500K',
+      },
+      {
+        title: 'PAKET COMBO CUSTOM SUSPENSION + CUSTOM COIL OVER',
+        detailSlug: 'combo-custom-coilover',
+        image: '/image/paket/suspension3.webp',
+        description: [
+          'Paket Combo Custom Suspension + Custom Coil Over TJM Auto Care menghadirkan solusi custom suspensi mobil sesuai keinginan, mulai dari custom ceper/tinggi, custom spring, custom coil over, painting warna, stopper shock, hingga fitting & uji coba sepuasnya. Dilengkapi tune up 65 komponen, gurah mesin, injector cleaner, catalytic cleaner, spooring, balancing, inspeksi kaki-kaki & AC, pengisian nitrogen shockbreaker, serta pilihan jamur kaca atau nano burn headlamp. Promo gratis senilai 8 juta rupiah.',
+        ],
+        subtitle: 'COMBO CUSTOM SUSPENSION + COIL OVER',
+        normalPrice: 'IDR 11.600K',
+        discountPrice: 'IDR 3.500K',
+      },
+    ],
+  },
+  shockbreaker: {
+    pageTitle: 'PAKET SHOCKBREAKER',
+    packages: [
+      {
+        title: 'PAKET SHOCKBREAKER KOMPLIT',
+        detailSlug: 'shockbreaker-komplit',
+        image: '/image/paket/shockbreaker1.webp',
+        description: [
+          'Paket Shockbreaker Komplit TJM Auto Care mencakup penggantian seal shock, teflon shock, full nitrogen injection, oil shock injection, oil lock anti bocor, anti karat body & spiral, full road test, test rebound, dan promo gratis senilai 8 juta rupiah. Termasuk free spooring 3D dan inspeksi kaki-kaki shaking machine.',
+        ],
+        subtitle: 'SHOCKBREAKER KOMPLIT',
+        normalPrice: 'IDR 2.500K',
+        discountPrice: 'IDR 750K',
+      },
+      {
+        title: 'PAKET SHOCKBREAKER SUPER KOMPLIT',
+        detailSlug: 'shockbreaker-super-komplit',
+        image: '/image/paket/shockbreaker2.webp',
+        description: [
+          'Paket Shockbreaker Super Komplit TJM Auto Care menawarkan penggantian seal performance, teflon shock, full nitrogen injection, racing oil shock injection, oil lock anti bocor, anti karat body & spiral, coil over custom, nitrogen adjustment, serta inspeksi kaki-kaki shaking machine. Dapatkan promo gratis senilai 8 juta rupiah dan free spooring 3D.',
+        ],
+        subtitle: 'SHOCKBREAKER SUPER KOMPLIT',
+        normalPrice: 'IDR 3.333K',
+        discountPrice: 'IDR 999K',
+      },
+      {
+        title: 'PAKET SHOCKBREAKER ULTIMATE',
+        detailSlug: 'shockbreaker-ultimate',
+        image: '/image/paket/shockbreaker3.webp',
+        description: [
+          'Paket Shockbreaker Ultimate TJM Auto Care adalah solusi paling lengkap untuk perawatan dan upgrade shockbreaker mobil Anda. Termasuk custom painting, coil over custom, nitrogen adjustment, full rebound & compression tuning, penggantian seal double racing, oil lock anti bocor, nitrogen tuning, teflon shock, racing oil shock injection, hingga evaluasi handling. Dilengkapi promo gratis senilai 8 juta rupiah, free spooring 3D, dan layanan darurat 24 jam.',
+        ],
+        subtitle: 'SHOCKBREAKER ULTIMATE',
+        normalPrice: 'IDR 7.500K',
+        discountPrice: 'IDR 2.250K',
+      },
+    ],
+  },
   'tebus-murah': {
     pageTitle: 'PROMO PAKET TEBUS MURAH',
     packages: [
@@ -464,46 +567,80 @@ export const packagesData = {
       {
         title: 'PAKET SUPER DINGIN',
         detailSlug: 'super-dingin',
-        image: '/image/paket/ac1.webp',
+        image: '/image/paket/acseries1.webp',
         description: [
-          'Paket Super Dingin mencakup inspeksi AC di 20 titik, pengecekan kebocoran selang, cuci evaporator tanpa bongkar, fogging interior, cuci kondensor, dan cuci blower. Solusi lengkap untuk AC mobil yang lebih dingin dan segar.',
+          'Paket Super Dingin mencakup 20 titik inspeksi AC & kelistrikan, pembersihan evaporator, kondensor, blower tanpa bongkar, pemeriksaan suhu AC, cek kebocoran sistem AC, pembersihan kisi-kisi AC, engine scanner, shaking machine, fogging interior, inspeksi manual kaki-kaki, dan pengukuran tekanan oli kompresor. Promo gratis senilai 4,5 juta rupiah.',
         ],
-        subtitle: 'PAKET SUPER DINGIN',
+        subtitle: 'SUPER DINGIN',
         normalPrice: 'IDR 400RB',
         discountPrice: 'IDR 97RB',
       },
       {
         title: 'PAKET SUPER DINGIN KOMPLIT',
         detailSlug: 'super-dingin-komplit',
-        image: '/image/paket/ac2.webp',
+        image: '/image/paket/acseries2.webp',
         description: [
-          'Paket Super Dingin Komplit adalah solusi perawatan AC dan kaki-kaki. Meliputi 15 titik servis komponen AC, 25 titik inspeksi kaki-kaki, garansi 30 hari, dan spooring 3D gratis. Harga sama untuk semua merk mobil.',
+          'Paket Super Dingin Komplit adalah solusi perawatan AC dan kaki-kaki, meliputi 15 titik servis komponen AC, 25 titik inspeksi kaki-kaki dengan shacking machine, garansi 30 hari, free spooring 3D, dan promo gratis senilai 4,5 juta rupiah. Harga sama untuk semua merk mobil.',
         ],
-        subtitle: 'PAKET SUPER DINGIN KOMPLIT',
+        subtitle: 'SUPER DINGIN KOMPLIT',
         normalPrice: 'IDR 1.500K',
         discountPrice: 'IDR 550K',
       },
       {
         title: 'PAKET SUPER MENGGIGIL KOMPLIT',
         detailSlug: 'super-menggigil-komplit',
-        image: '/image/paket/ac3.webp',
+        image: '/image/paket/acseries3.webp',
         description: [
-          'Tingkatkan performa AC Anda dengan Paket Super Menggigil Komplit. Mencakup 22 titik servis komponen AC, 25 titik inspeksi kaki-kaki, garansi 30 hari, dan gratis spooring 3D untuk kenyamanan berkendara maksimal.',
+          'Paket Super Menggigil Komplit menawarkan 22 titik servis komponen AC, 25 titik inspeksi kaki-kaki dengan shacking machine, garansi 30 hari, free spooring 3D, dan promo gratis senilai 4,5 juta rupiah. Harga sama untuk semua merk mobil.',
         ],
-        subtitle: 'PAKET SUPER MENGGIGIL KOMPLIT',
+        subtitle: 'SUPER MENGGIGIL KOMPLIT',
         normalPrice: 'IDR 2.000K',
         discountPrice: 'IDR 750K',
       },
       {
         title: 'PAKET SUPER BEKU KOMPLIT',
         detailSlug: 'super-beku-komplit',
-        image: '/image/paket/ac4.webp',
+        image: '/image/paket/acseries4.webp',
         description: [
-          'Rasakan sensasi dingin maksimal dengan Paket Super Beku Komplit. Paket ini mencakup 25 titik servis komponen AC, 25 titik inspeksi kaki-kaki, garansi 30 hari, dan gratis spooring 3D. Solusi terlengkap untuk AC super dingin dan kaki-kaki prima.',
+          'Paket Super Beku Komplit menghadirkan 25 titik servis komponen AC, 25 titik inspeksi kaki-kaki dengan shacking machine, garansi 30 hari, free spooring 3D, dan promo gratis senilai 4,5 juta rupiah. Harga sama untuk semua merk mobil.',
         ],
-        subtitle: 'PAKET SUPER BEKU KOMPLIT',
+        subtitle: 'SUPER BEKU KOMPLIT',
         normalPrice: 'IDR 3.000K',
-        discountPrice: 'IDR 1.350K',
+        discountPrice: 'IDR 1.400K',
+      },
+      {
+        title: 'PAKET TRIPLE COMBO 1 (AC + KAKI KAKI + TUNE UP)',
+        detailSlug: 'triple-combo-1',
+        image: '/image/paket/triplecombo1.webp',
+        description: [
+          'Paket Triple Combo 1 menggabungkan perawatan AC (20+ titik), tune up 65 komponen, inspeksi kaki-kaki, service link stabil, ball joint, bearing, long tie rod, tie rod, lower arm, grease area kaki-kaki, service rem, dan promo gratis senilai 4,5 juta rupiah.',
+        ],
+        subtitle: 'TRIPLE COMBO 1',
+        normalPrice: 'IDR 3.000K',
+        discountPrice: 'IDR 1.500K',
+      },
+      {
+        title: 'PAKET TRIPLE COMBO 2 (AC + TUNE UP + OLI KOMPLIT)',
+        detailSlug: 'triple-combo-2',
+        image: '/image/paket/triplecombo2.webp',
+        description: [
+          'Paket Triple Combo 2 berisi perawatan AC lengkap, tune up 65 komponen, oli Bardahl USA 5-40, filter oli, engine flush, inspeksi kaki-kaki, general check up kelistrikan, dan promo gratis senilai 4,5 juta rupiah.',
+        ],
+        subtitle: 'TRIPLE COMBO 2',
+        normalPrice: 'IDR 3.500K',
+        discountPrice: 'IDR 1.750K',
+      },
+      {
+        title:
+          'PAKET TRIPLE COMBO 3 (AC KOMPLIT + FULL DETAILING + NANO CERAMIC COATING)',
+        detailSlug: 'triple-combo-3',
+        image: '/image/paket/triplecombo3.webp',
+        description: [
+          'Paket Triple Combo 3 adalah paket AC komplit dengan full detailing eksterior & interior, glass treatment, nano ceramic coating 3 layer, tune up 65 komponen, inspeksi kaki-kaki, dan promo gratis senilai 4,5 juta rupiah.',
+        ],
+        subtitle: 'TRIPLE COMBO 3',
+        normalPrice: 'IDR 4.000K',
+        discountPrice: 'IDR 1.999K',
       },
     ],
   },
@@ -511,33 +648,11 @@ export const packagesData = {
     pageTitle: 'PAKET DETAILING',
     packages: [
       {
-        title: 'PAKET BASIC EKSTERIOR EXPRESS DETAILING',
-        detailSlug: 'basic-eksterior-express',
-        image: '/image/paket/detailing1.webp',
-        description: [
-          'Paket detailing eksterior cepat yang mencakup One Step Polish 3-in-1 (compound, wax, finishing), Car Wash Snow, Wheel Dressing, Paint Protection, serta Emblem & Spot Detailing untuk mengembalikan kilau mobil Anda secara efisien.',
-        ],
-        subtitle: 'PAKET BASIC EKSTERIOR EXPRESS DETAILING',
-        normalPrice: 'Mulai dari IDR 799K',
-        discountPrice: 'START FROM IDR 399K',
-      },
-      {
-        title: 'PAKET BASIC INTERIOR EXPRESS DETAILING',
-        detailSlug: 'basic-interior-express',
-        image: '/image/paket/detailing2.webp',
-        description: [
-          'Pembersihan interior menyeluruh tanpa bongkar jok. Paket ini meliputi Car Wash Snow, Deep Interior Cleaning, pembersihan atap, plafon, plastik, karpet, door trim, jok, cuci karpet basah, vacuum, hingga steaming uap untuk interior yang bersih dan segar.',
-        ],
-        subtitle: 'PAKET BASIC INTERIOR EXPRESS DETAILING',
-        normalPrice: 'Mulai dari IDR 799K',
-        discountPrice: 'START FROM IDR 399K',
-      },
-      {
-        title: 'PAKET CUCI SNOW JOK MOBIL',
+        title: 'PAKET CUCI SNOW JOK MOBIL + STEAM UAP',
         detailSlug: 'cuci-jok-steam',
         image: '/image/paket/detailing3.webp',
         description: [
-          'Fokus pada kebersihan jok mobil Anda, paket ini meliputi Poles Snow Jok, vacuum noda, Spoot Cleaning, Interior Spray, pewangi, dan Steam Uap Jok Mobil untuk hasil bersih maksimal dan wangi.',
+          'Paket pembersihan jok mobil dengan poles snow, vacuum noda, spot cleaning, interior spray, pewangi, dan steam uap untuk hasil bersih dan harum maksimal.',
         ],
         subtitle: 'PAKET CUCI SNOW JOK MOBIL',
         normalPrice: 'Mulai dari IDR 700K',
@@ -548,40 +663,73 @@ export const packagesData = {
         detailSlug: 'engine-detailing',
         image: '/image/paket/detailing4.webp',
         description: [
-          'Perawatan ruang mesin secara detail. Meliputi pembersihan debu, kotoran, noda menempel, dan sisa oli. Sekaligus melindungi dan mengkilapkan area ruang mesin hingga ke sudut yang sulit dijangkau.',
+          'Paket pembersihan ruang mesin secara detail, menghilangkan debu, noda, dan sisa oli, sekaligus melindungi serta mengkilapkan area mesin hingga ke sudut yang sulit dijangkau.',
         ],
         subtitle: 'PAKET ENGINE DETAILING',
-        normalPrice: 'IDR 700.000',
-        discountPrice: 'IDR 350.000',
+        normalPrice: 'IDR 700K',
+        discountPrice: 'IDR 350K',
       },
       {
-        title: 'PAKET KINCLONG EKSTERIOR',
+        title: 'PAKET NANO BURN COATING HEADLAMP',
+        detailSlug: 'nano-burn-headlamp',
+        image: '/image/paket/detailing9.webp',
+        description: [
+          'Paket pelapisan premium headlamp untuk mengembalikan kejernihan, menghilangkan warna kuning pada mika lampu, membuat headlamp tampak seperti baru, meningkatkan keamanan berkendara, dan bonus poles setelah nano burn.',
+        ],
+        subtitle: 'PAKET NANO BURN COATING HEADLAMP',
+        normalPrice: 'IDR 800K',
+        discountPrice: 'IDR 399K',
+      },
+      {
+        title: 'PAKET BASIC EKSTERIOR EXPRESS DETAILING',
+        detailSlug: 'basic-eksterior-express',
+        image: '/image/paket/detailing1.webp',
+        description: [
+          'Paket detailing eksterior cepat dengan one step polish 3-in-1, car wash snow, wheel dressing, paint protection, serta emblem & spot detailing untuk kilau efisien.',
+        ],
+        subtitle: 'PAKET BASIC EKSTERIOR EXPRESS DETAILING',
+        normalPrice: 'Mulai dari IDR 799K',
+        discountPrice: 'START FROM IDR 399K',
+      },
+      {
+        title: 'PAKET BASIC INTERIOR EXPRESS DETAILING',
+        detailSlug: 'basic-interior-express',
+        image: '/image/paket/detailing2.webp',
+        description: [
+          'Paket pembersihan interior tanpa bongkar jok, meliputi car wash snow, deep cleaning, pembersihan atap, plastik, karpet, door trim, cuci karpet basah, vacuum, dan steaming uap untuk interior bersih dan segar.',
+        ],
+        subtitle: 'PAKET BASIC INTERIOR EXPRESS DETAILING',
+        normalPrice: 'Mulai dari IDR 799K',
+        discountPrice: 'START FROM IDR 399K',
+      },
+      {
+        title: 'PAKET KINCLONG EKSTERIOR COMPLETE DETAILING',
         detailSlug: 'kinclong-eksterior-complete',
         image: '/image/paket/detailing5.webp',
         description: [
-          'Paket detailing eksterior lengkap untuk hasil maksimal. Termasuk 4 Step Polish (heavy cut, medium cut, ultra super finish, waxing), Car Wash Snow, Glass Treatment, Wheel Dressing, Premium Glass Treatment, hingga Premium Glass Hydrophobic Protection.',
+          'Paket detailing eksterior lengkap dengan 4 step polish, car wash snow, glass treatment, wheel dressing, premium glass polish, hydrophobic protection, emblem & spot detailing untuk hasil kilau maksimal dan perlindungan kaca terbaik.',
         ],
         subtitle: 'PAKET KINCLONG EKSTERIOR',
         normalPrice: 'Mulai dari IDR 1.300K',
-        discountPrice: 'START FROM IDR 650.000',
+        discountPrice: 'START FROM IDR 650K',
       },
       {
-        title: 'PAKET KINCLONG INTERIOR',
+        title: 'PAKET KINCLONG INTERIOR COMPLETE DETAILING',
         detailSlug: 'kinclong-interior-complete',
         image: '/image/paket/detailing6.webp',
         description: [
-          'Pembersihan interior super lengkap dengan bongkar jok total untuk menjangkau semua area. Meliputi Deep Interior Cleaning, pembersihan hama & serangga, cleaning & dressing door trim, jok, plastik, karpet, atap, plafon, hingga steaming uap.',
+          'Paket detailing interior lengkap dengan car wash lance foam, deep interior cleaning bongkar jok total, cleaning atap & plafon, pembersihan hama & serangga, dressing plastik & karet, cleaning door trim & jok, cuci karpet basah, vacuum & steaming uap, pembersihan spot/celah sulit dijangkau.',
         ],
-        subtitle: 'PAKET KINCLONG INTERIOR',
+        subtitle: 'KINCLONG INTERIOR COMPLETE DETAILING',
         normalPrice: 'Mulai dari IDR 1.700K',
-        discountPrice: 'START FROM IDR 850.000',
+        discountPrice: 'START FROM IDR 850K',
       },
       {
         title: 'PAKET KOMPLIT DETAILING 1',
         detailSlug: 'komplit-detailing-1',
         image: '/image/paket/detailing7.webp',
         description: [
-          'Paket kombinasi perawatan interior dan eksterior. Termasuk 4 step polish, wheel dressing, premium glass treatment, hydrophobic protection, engine detailing, car wash, deep interior cleaning (tanpa bongkar jok), dan steaming uap.',
+          'Paket detailing komplit dengan 4 step polish, wheel dressing, premium glass polish, hydrophobic protection, emblem & spot detailing, engine detailing, car wash highfoam, deep interior cleaning tanpa bongkar jok, cleaning atap & plafon, cleaning plastik & karet, poles snow jok, cuci karpet basah, vacuum & steaming uap.',
         ],
         subtitle: 'PAKET KOMPLIT DETAILING 1',
         normalPrice: 'Mulai dari IDR 1.700K',
@@ -599,15 +747,37 @@ export const packagesData = {
         discountPrice: 'START FROM IDR 1.350K',
       },
       {
-        title: 'PAKET NANO BURN COATING HEADLAMP',
-        detailSlug: 'nano-burn-headlamp',
-        image: '/image/paket/detailing9.webp',
+        title: 'PAKET PASTI KINCLONG 1',
+        detailSlug: 'pasti-kinclong-1',
+        image: '/image/paket/kinclong1.webp',
         description: [
-          'Mengembalikan kondisi headlamp yang pudar dan kuning menjadi seperti baru. Proses ini meningkatkan faktor keamanan berkendara dengan pencahayaan optimal, melapisi dengan chemical premium, dan bonus poles headlamp.',
+          'Paket detailing lengkap dengan ultra nano coating, cuci snow wash + clay bar, interior dan eksterior detailing, engine detailing, velg detailing, fogging AC, treatment uap, wheel dressing, recovery trim, glass treatment hydrophobic, spot detailing, nano spray gun disinfectant, ozone treatment, super nano sealant, dan waxing.',
         ],
-        subtitle: 'PAKET NANO BURN COATING HEADLAMP',
-        normalPrice: 'IDR 800.000',
-        discountPrice: 'IDR 399.000',
+        subtitle: 'PAKET PASTI KINCLONG 1',
+        normalPrice: 'Mulai dari IDR 2.500K',
+        discountPrice: 'START FROM IDR 1.250K',
+      },
+      {
+        title: 'PAKET PASTI KINCLONG 2',
+        detailSlug: 'pasti-kinclong-2',
+        image: '/image/paket/kinclong2.webp',
+        description: [
+          'Paket detailing menyeluruh dengan ultra nano coating, cuci snow wash + clay bar, interior detailing + bongkar jok total, eksterior detailing, treatment uap, water spot remover, engine detailing, velg detailing, fogging AC, wheel dressing & recovery trim, nano spray gun disinfectant, inner vender detailing, glass treatment hydrophobic, ozone treatment, spot detailing, super nano sealant, dan waxing.',
+        ],
+        subtitle: 'PAKET PASTI KINCLONG 2',
+        normalPrice: 'Mulai dari IDR 3.200K',
+        discountPrice: 'START FROM IDR 1.600K',
+      },
+      {
+        title: 'PAKET PASTI KINCLONG 3',
+        detailSlug: 'pasti-kinclong-3',
+        image: '/image/paket/kinclong3.webp',
+        description: [
+          'Paket detailing ultra nano coating, cuci snow wash + clay bar, interior & eksterior detailing, treatment uap, water spot remover, bongkar jok total & pembersihan hama, engine detailing, fogging AC, wheel dressing, nano spray gun disinfectant, inner vender detailing, glass treatment hydrophobic, nano burn coating headlamp, super nano sealant, recovery trim, velg detailing, spot detailing, ozone treatment, dan waxing.',
+        ],
+        subtitle: 'PAKET PASTI KINCLONG 3',
+        normalPrice: 'Mulai dari IDR 3.200K',
+        discountPrice: 'START FROM IDR 1.600K',
       },
     ],
   },
