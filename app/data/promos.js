@@ -52,11 +52,6 @@ export const promoData = [
             '<b>Gratis Konsultasi Bisnis Ekspor - Impor</b><br/>Manfaatkan jaringan TJM AC Mobil! Dapatkan layanan <b>Konsultasi Bisnis Ekspor-Impor GRATIS</b> dengan tim ahli, yang akan membantu Anda mengembangkan peluang bisnis di skala internasional selama Mega Promo Akhir Tahun.',
         },
         {
-          image: '/image/promo/ac10.webp',
-          description:
-            '<b>Gratis Konsultasi Ekspor - Impor</b><br/>Manfaatkan kesempatan <b>GRATIS Konsultasi Ekspor-Impor</b> untuk mendapatkan arahan strategis dan peluang mengembangkan bisnis Anda di pasar global selama Mega Promo Akhir Tahun di TJM AC Mobil.',
-        },
-        {
           image: '/image/promo/ac11.webp',
           description:
             '<b>Gratis VIP Member Card + Sticker Membership</b><br/>Jadilah pelanggan istimewa TJM Auto Care! Nikmati <b>GRATIS</b> mendapatkan <b>VIP Member Card</b> beserta stiker eksklusif, yang memberikan Anda berbagai keuntungan dan layanan prioritas selama Mega Promo Akhir Tahun di TJM AC Mobil.',
@@ -435,12 +430,12 @@ export const promoData = [
         {
           image: '/image/promo/auto6.webp',
           description:
-            '<b>Gratis Antar Kendaraan (Max Radius 20 KM)</b><br/>Untuk kenyamanan Anda, nikmati layanan <b>GRATIS Antar Kendaraan</b> setelah servis dengan radius maksimal 20 KM dari outlet TJM Auto Care selama promo akhir tahun.',
+            '<b>Gratis Extra Additional 10% Diskon All Paket</b><br/>Dapatkan <b>GRATIS Extra Additional 10% Diskon</b> untuk semua paket servis di TJM Auto Care selama Grand Promo Awal Tahun. Berlaku di seluruh cabang kota besar, syarat & ketentuan berlaku.',
         },
         {
           image: '/image/promo/auto7.webp',
           description:
-            '<b>Gratis Anti-Kutu Max Defense Interior</b><br/>Jaga kebersihan dan kenyamanan kabin mobil Anda dengan layanan <b>GRATIS Anti-Kutu Max Defense Interior</b> selama Mega Promo Akhir Tahun di TJM Auto Care.',
+            '<b>Gratis Free Cairan Interior Disinfectant</b><br/>Dapatkan <b>GRATIS Free Cairan Interior Disinfectant</b> untuk menjaga kebersihan dan higienitas kabin mobil Anda selama Grand Promo Awal Tahun di TJM Auto Care. Berlaku di seluruh cabang kota besar, syarat & ketentuan berlaku.',
         },
         {
           image: '/image/promo/auto8.webp',
@@ -495,7 +490,7 @@ export const promoData = [
         {
           image: '/image/promo/auto18.webp',
           description:
-            '<b>Gratis Extra Additional 10% untuk Paket Rack Steer dan Shockbreaker</b><br/>Dapatkan tambahan diskon <b>GRATIS 10%</b> khusus untuk paket perbaikan rack steer dan shockbreaker selama Mega Promo Akhir Tahun di TJM Auto Care.',
+            '<b>Free Interior Cabin Index Qualer</b><br/>Dapatkan <b>FREE Interior Cabin Index Qualer</b> selama Grand Promo Awal Tahun di TJM Auto Care. Berlaku di seluruh cabang kota besar, syarat & ketentuan berlaku.',
         },
         {
           image: '/image/promo/auto19.webp',
@@ -505,12 +500,12 @@ export const promoData = [
         {
           image: '/image/promo/auto20.webp',
           description:
-            '<b>Gratis Multipurpose Perfume Cabin Interior</b><br/>Dapatkan <b>GRATIS Multipurpose Perfume</b> untuk kabin interior mobil Anda, membuat suasana di dalam mobil selalu segar dan nyaman selama Mega Promo Akhir Tahun di TJM Auto Care.',
+            '<b>Free Snack & Welcome Drink</b><br/>Dapatkan <b>FREE Snack & Welcome Drink</b> selama Grand Promo Awal Tahun di TJM Auto Care. Berlaku di seluruh cabang kota besar, syarat & ketentuan berlaku.',
         },
         {
           image: '/image/promo/auto21.webp',
           description:
-            '<b>Gratis Sticker Membership TJM Auto Care</b><br/>Segera dapatkan <b>GRATIS Sticker Membership</b> eksklusif, yang tidak hanya sebagai identitas, tapi juga membuka akses ke berbagai keuntungan anggota dengan benefit hingga ratusan juta rupiah sesuai brosur selama Mega Promo Akhir Tahun di TJM Auto Care.',
+            '<b>Garansi 1 Bulan + 1 Bulan (Khusus Untuk Paket Kaki Kaki)</b><br/>Dapatkan <b>Garansi 1 Bulan + 1 Bulan</b> khusus untuk paket servis kaki-kaki selama Grand Promo Awal Tahun di TJM Auto Care. Berlaku di seluruh cabang kota besar, syarat & ketentuan berlaku.',
         },
         {
           image: '/image/promo/auto22.webp',
