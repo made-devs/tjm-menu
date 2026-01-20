@@ -1,37 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+TJM
 
-## Getting Started
+- MASUKIN SEMUA LOGO LOGO SEMUA BRAND NYA TJM GROUP, (BLISSFULL, TJM MOTOZONE, THEI, 77 PERFORMANCE, NAGA AUTOPART, TJM DETAILING, TJM EKSPRESS, TJM UNDERCARRIAGE, SENTINEL VIP, SENTINEL LAWFIRM DLL) ✅
 
-First, run the development server:
+- DI SLIDE TJM PEDULI TAMBAHKAN FOTO FOTO CSR SERVICE AMBULAN DAN BERBAGI DI ACEH ✅
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- KETERANGAN CABANG BUAT JADI 28 CABANG ✅
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- DI BAGIAN GALLERY TAMBAHKAN LAGI FOTO FOTO PENGERJAAN TERBARU DAN YANG LAINNYA MINTA KE ARYA EDITOR ✅
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- SS PROFILE INSTAGRAM DI PERBARUI KARNA FOLLOWERS SUDAH NAIK ✅
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- DI BAGIAN"DENGAN MENGUNSUP KONSEP". FOTONYA DI PERBARUI DENGAN FOTO FRONE BENGKEL TJM YANG DARI ATAS. MINTA KE ARYA FOTONYA DAN BANYAK SPACE KOSONG, DI MAKSIMALKA LAGI TEKSNYA ✅
 
-## Learn More
+- PADA BAGIAN COMPANY PROFILE FOTO CALVINNYA BUREM ✅
 
-To learn more about Next.js, take a look at the following resources:
+- DALAM BAGIAN PROMO BULAN INI DEPANNYA HARUS KASIH PROMO YANG GRID DULU DAN BAGIAN BAWAH KASIH FOTO DIDALAM DRIVE INI
+  https://drive.google.com/drive/folders/1bhARLdN5hIqYsaazamKi1H8TMRXyKqYa?usp=drive_link
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
+- DI BAGIAN GRID GRID PROMONYA MASUKIN FOTO ZACKLEE LAGI SALAMAN SAMA CALVIN DI DEPAN BMW, MINTA KE ARYA DAN BEBERAPA FOTO LAINNYA UPDATE KE FOTO YANG ADA ZACKLEENYA

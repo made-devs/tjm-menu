@@ -31,13 +31,17 @@ export const PromoDetailSlider = ({ slides, title }) => {
             style={{ transform: `translateX(-${currentIndex * 100}%)` }}
           >
             {slides.map((slide, index) => (
-              <div key={index} className="w-full flex-shrink-0">
+              <div
+                key={index}
+                className="w-full flex-shrink-0 flex items-center justify-center"
+                style={{ height: 500 }} // Set tinggi tetap agar gambar bisa di-center
+              >
                 <Image
                   src={slide.image}
                   alt={`Promo image ${index + 1}`}
                   width={400}
                   height={500}
-                  className="w-full h-auto object-contain"
+                  className="object-contain"
                 />
               </div>
             ))}
