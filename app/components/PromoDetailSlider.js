@@ -73,12 +73,12 @@ export const PromoDetailSlider = ({ slides, title }) => {
         <h2 className="text-lg font-bold tracking-wide">{title}</h2>
 
         {/* Deskripsi hanya muncul jika ada dan akan merender HTML */}
-        {currentSlide.description && (
+        {/* {currentSlide.description && (
           <p
             className="text-sm font-medium text-gray-300"
             dangerouslySetInnerHTML={{ __html: currentSlide.description }}
           />
-        )}
+        )} */}
       </div>
     </div>
   );
