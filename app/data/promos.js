@@ -417,7 +417,7 @@ export const promoData = [
     },
   },
   {
-    image: "/image/promo/promo4.webp",
+    image: "/image/promo/grid-tjm.webp",
     title: "PROMO TJM AUTO CARE",
     slug: "auto-care",
     details: {
@@ -526,56 +526,6 @@ export const promoData = [
           image: "/image/promo/auto20.webp",
           description:
             "<b>Free Snack & Welcome Drink</b><br/>Dapatkan <b>FREE Snack & Welcome Drink</b> selama Grand Promo Awal Tahun di TJM Auto Care. Berlaku di seluruh cabang kota besar, syarat & ketentuan berlaku.",
-        },
-        {
-          image: "/image/promo/auto21.webp",
-          description:
-            "<b>Garansi 1 Bulan + 1 Bulan (Khusus Untuk Paket Kaki Kaki)</b><br/>Dapatkan <b>Garansi 1 Bulan + 1 Bulan</b> khusus untuk paket servis kaki-kaki selama Grand Promo Awal Tahun di TJM Auto Care. Berlaku di seluruh cabang kota besar, syarat & ketentuan berlaku.",
-        },
-        {
-          image: "/image/promo/auto22.webp",
-          description:
-            "<b>Gratis Tar Remover</b><br/>Hilangkan noda aspal membandel di bodi mobil Anda! Dapatkan layanan <b>GRATIS Tar Remover</b> untuk menjaga cat mobil tetap bersih dan mulus selama Mega Promo Akhir Tahun di TJM Auto Care.",
-        },
-        {
-          image: "/image/promo/auto23.webp",
-          description:
-            "<b>Gratis Rubberized Undercoat</b><br/>Berikan perlindungan ekstra pada kolong mobil Anda dari benturan dan karat! Nikmati layanan <b>Rubberized Undercoat GRATIS</b> untuk melapisi kolong mobil dengan bahan karet pelindung selama Mega Promo Akhir Tahun di TJM Auto Care.",
-        },
-        {
-          image: "/image/promo/auto24.webp",
-          description:
-            "<b>Gratis Tire & Velg Detailing Cleaning</b><br/>Dapatkan layanan <b>GRATIS Detailing Cleaning</b> untuk ban dan velg mobil Anda, memastikan tampilan roda selalu bersih dan mengilap selama Mega Promo Akhir Tahun di TJM Auto Care.",
-        },
-        {
-          image: "/image/promo/auto25.webp",
-          description:
-            "<b>Gratis Voucher Diskon 50% Paket Anti Karat / Rubberized Undercoat</b><br/>Lindungi kolong mobil Anda! Dapatkan <b>Voucher GRATIS</b> diskon <b>50%</b> untuk layanan Paket Anti Karat atau Rubberized Undercoat selama Mega Promo Akhir Tahun di TJM Auto Care.",
-        },
-        {
-          image: "/image/promo/auto26.webp",
-          description:
-            "<b>Gratis Voucher Diskon 50% Interior & Eksterior Full Detailing</b><br/>Percantik tampilan mobil Anda luar dan dalam! Segera dapatkan <b>Voucher GRATIS</b> diskon <b>50%</b> untuk layanan Full Detailing Interior dan Eksterior selama Mega Promo Akhir Tahun di TJM Auto Care.",
-        },
-        {
-          image: "/image/promo/auto27.webp",
-          description:
-            "<b>Gratis Voucher Diskon Sparepart 10%</b><br/>Hemat untuk suku cadang! Dapatkan <b>Voucher GRATIS</b> diskon <b>10%</b> untuk pembelian berbagai sparepart (suku cadang) mobil di TJM Auto Care selama Mega Promo Akhir Tahun.",
-        },
-        {
-          image: "/image/promo/auto28.webp",
-          description:
-            "<b>Gratis Voucher Diskon 50% Nano Ceramic Coating</b><br/>Lindungi cat mobil Anda dengan teknologi terkini! Dapatkan <b>Voucher GRATIS</b> diskon hingga <b>50%</b> untuk layanan Nano Ceramic Coating premium selama Mega Promo Akhir Tahun di TJM Auto Care.",
-        },
-        {
-          image: "/image/promo/auto29.webp",
-          description:
-            "<b>Promo Voucher Service Potongan Harga (TJM Peduli)</b><br/>Berbagi sambil servis! Dapatkan <b>Voucher GRATIS</b> service potongan harga, di mana selisih harga akan disalurkan ke program amal <b>TJM Peduli</b> selama Mega Promo Akhir Tahun di TJM Auto Care.",
-        },
-        {
-          image: "/image/promo/auto30.webp",
-          description:
-            "<b>Gratis Voucher 2x Tune Up 65 Komponen + General Safety</b><br/>Performa mesin terjaga! Dapatkan <b>Voucher GRATIS</b> untuk <b>2x Tune Up 65 Komponen</b> dan pemeriksaan General Safety mobil Anda selama Mega Promo Akhir Tahun di TJM Auto Care.",
         },
       ],
     },

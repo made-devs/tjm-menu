@@ -35,7 +35,7 @@ const menuData = [
     text: 'PROMO BULAN INI',
     subMenu: [
       {
-        text: '30 PROMO GRATIS SENILAI 8 JT',
+        text: '20 PROMO GRATIS SENILAI 5 JT',
         href: '/promo/auto-care',
       },
       {
@@ -138,9 +138,8 @@ const MenuItem = ({ item, closeMenu }) => {
         <button onClick={() => setIsOpen(!isOpen)} className={commonClasses}>
           <span>{item.text}</span>
           <ChevronDown
-            className={`h-5 w-5 text-gray-300 transition-transform duration-200 ${
-              isOpen ? 'rotate-180' : ''
-            }`}
+            className={`h-5 w-5 text-gray-300 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''
+              }`}
           />
         </button>
         <div
@@ -229,15 +228,13 @@ export const Header = () => {
 
       {/* Overlay dan Menu Slide-in */}
       <div
-        className={`fixed inset-0 bg-black/60 z-40 transition-opacity duration-300 ${
-          isMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
-        }`}
+        className={`fixed inset-0 bg-black/60 z-40 transition-opacity duration-300 ${isMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
+          }`}
         onClick={closeMenu} // Gunakan closeMenu di sini juga
       ></div>
       <div
-        className={`fixed top-0 right-0 h-fit max-h-screen w-[75%] max-w-sm bg-white shadow-2xl z-50 transition-transform duration-300 ease-in-out flex flex-col ${
-          isMenuOpen ? 'translate-x-0' : 'translate-x-full'
-        } rounded-l-2xl rounded-br-2xl`}
+        className={`fixed top-0 right-0 h-fit max-h-screen w-[75%] max-w-sm bg-white shadow-2xl z-50 transition-transform duration-300 ease-in-out flex flex-col ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'
+          } rounded-l-2xl rounded-br-2xl`}
       >
         <div className="p-4 md:p-6 flex-shrink-0">
           <div className="flex items-center justify-between mb-6">
