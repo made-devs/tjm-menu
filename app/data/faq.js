@@ -27,7 +27,7 @@ export const faqData = [
     id: 5,
     question: "Apakah ada garansi di TJM Auto Care?",
     answer:
-      "Ya, <b>TJM Auto Care</b> memberikan garansi servis selama 30 hari.",
+      "Ya, <b>TJM Auto Care</b> memberikan garansi servis selama 30 hari. Dijamin!",
   },
   {
     id: 6,
