@@ -35,7 +35,7 @@ const menuData = [
     text: 'PROMO BULAN INI',
     subMenu: [
       {
-        text: '20 PROMO GRATIS SENILAI 5 JT',
+        text: '20 PROMO GRATIS SENILAI 8 JT',
         href: '/promo/auto-care',
       },
       {
